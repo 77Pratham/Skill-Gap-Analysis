@@ -1,0 +1,916 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 100 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 105 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 106 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 107 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/learn-kubernetes)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 419.2475 267.8402 430.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kubernetes.io/docs/tutorials/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 399.2475 254.9027 410.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/aws-certified-solutions-architect-associate-saa-c03)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 379.2475 250.3052 390.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 359.2475 254.0552 370.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/apache-kafka)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 339.2475 259.0802 350.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/apache-kafka)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 328.2475 180.7052 339.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kafka.apache.org/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 309.2475 235.7252 320.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/devsecops)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 289.2475 290.3327 300.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.github.com/en/actions)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 269.2475 241.5602 280.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+18 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/donnemartin/system-design-primer)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 249.2475 213.6152 260.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+19 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://educative.io/courses/grokking-modern-system-design-interview)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 229.2475 253.6352 240.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+20 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/specializations/deep-learning)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 209.2475 236.5652 220.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+21 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://course.fast.ai)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 189.2475 241.1477 200.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+22 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 169.2475 278.6777 180.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://fullstackdeeplearning.com/llm-bootcamp/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 149.2475 285.3302 160.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://deeplearning.ai/short-courses/building-systems-with-chatgpt/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 129.2475 271.9877 140.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+25 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/spark-and-python-for-big-data-with-pyspark)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 97.24754 267.8402 108.2475 ] /Subtype /Link /Type /Annot
+>>
+endobj
+26 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://customer-academy.databricks.com/learn/course/1308)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 77.24754 246.5627 88.24754 ] /Subtype /Link /Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://customer-academy.databricks.com/learn/course/1308)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 66.24754 186.5402 77.24754 ] /Subtype /Link /Type /Annot
+>>
+endobj
+28 0 obj
+<<
+/Annots [ 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 
+  19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R ] /Contents 108 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+29 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/specializations/algorithms)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 746.7594 222.7952 757.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+30 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://leetcode.com/studyplan/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 726.7594 213.6452 737.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+31 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 706.7594 289.4927 717.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+32 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learnprompting.org/docs/intro)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 674.7594 194.4602 685.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+33 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 642.7594 271.9952 653.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+34 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 631.7594 189.0377 642.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+35 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://airflow.apache.org/docs/apache-airflow/stable/tutorial.html)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 612.7594 213.6152 623.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+36 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/learn/generative-ai-for-everyone)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 592.7594 229.4777 603.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+37 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 572.7594 271.1702 583.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+38 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://youtube.com/watch?v=T-D1OfcDW1M)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 540.7594 222.8102 551.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+39 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://deeplearning.ai/short-courses/langchain-for-llm-application-development/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 520.7594 287.8352 531.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+40 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://youtube.com/watch?v=nAmC7SoVLd8)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 488.7594 223.6352 499.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+41 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Go)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 468.7594 227.8052 479.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+42 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://mlflow.org/docs/latest/index.html)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 448.7594 240.3002 459.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+43 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://deeplearning.ai/short-courses/finetuning-large-language-models/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 428.7594 257.0027 439.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+44 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://huggingface.co/blog/4bit-transformers-bitsandbytes)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 396.7594 225.3077 407.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+45 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=FastAPI)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 364.7594 244.4777 375.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+46 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/professional-certificates/tensorflow-in-practice)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 344.7594 250.2977 355.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+47 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.tensorflow.org/tutorials)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 324.7594 234.0377 335.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+48 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://pytorch.org/tutorials/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 304.7594 222.7877 315.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+49 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/pytorch-for-deep-learning-in-python-bootcamp)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 284.7594 264.9077 295.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+50 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/data-warehouse-the-ultimate-guide)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 264.7594 244.8977 275.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+51 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/DataTalksClub/mlops-zoomcamp)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 232.7594 202.7852 243.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+52 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/specializations/machine-learning-engineering-for-production-mlops)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 212.7594 289.5077 223.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+53 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/specializations/machine-learning-engineering-for-production-mlops)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 201.7594 168.1877 212.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+54 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://huggingface.co/course/chapter1)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 182.7594 228.6377 193.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+55 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://udemy.com/course/terraform-for-the-absolute-beginners)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 162.7594 262.4027 173.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+56 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Azure)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 142.7594 237.3902 153.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+57 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Communication)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 122.7594 269.8952 133.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+58 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://youtube.com/watch?v=xI0HHN5XKDo)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 102.7594 250.3127 113.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+59 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://courses.getdbt.com/collections)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 82.75935 199.0502 93.75935 ] /Subtype /Link /Type /Annot
+>>
+endobj
+60 0 obj
+<<
+/Annots [ 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 
+  39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 
+  49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 
+  59 0 R ] /Contents 109 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+61 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://deeplearning.ai/short-courses/building-applications-vector-databases/)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 746.7594 266.9927 757.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+62 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Databricks)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 714.7594 253.2227 725.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+63 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Site+Reliability+Engineering)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 694.7594 274.0727 705.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+64 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Site+Reliability+Engineering)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 683.7594 169.8602 694.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+65 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://huggingface.co/course/chapter1)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 662.7594 228.6377 673.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+66 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/specializations/natural-language-processing)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 618.7594 201.9602 629.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+67 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 574.7594 283.2527 585.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+68 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Ansible)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 530.7594 242.3927 541.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+69 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Prometheus)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 510.7594 258.2327 521.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+70 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Scala)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 490.7594 236.5577 501.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+71 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=LangGraph)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 470.7594 255.3227 481.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+72 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Problem+Solving)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 450.7594 272.4002 461.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+73 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Microservices)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 418.7594 263.6327 429.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+74 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Grafana)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 398.7594 244.8977 409.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+75 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Great+Expectations)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 378.7594 281.5802 389.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+76 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Django)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 346.7594 241.5602 357.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+77 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Unit+Testing)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 326.7594 257.8127 337.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+78 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Data-Driven+Decision+Making)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 306.7594 281.9777 317.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+79 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Data-Driven+Decision+Making)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 295.7594 169.8602 306.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+80 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Snowflake)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 262.7594 252.3977 273.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+81 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Shell+Scripting)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 242.7594 265.7327 253.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+82 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Project+Management)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 222.7594 286.9952 233.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+83 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Jenkins)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 190.7594 243.2252 201.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+84 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/specializations/machine-learning-introduction)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 170.7594 246.9827 181.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+85 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://oreilly.com/library/view/hands-on-machine-learning)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 150.7594 291.9902 161.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+86 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developers.google.com/machine-learning/crash-course)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 130.7594 246.9752 141.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+87 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Elasticsearch)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 110.7594 262.3952 121.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+88 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Vector+Embeddings)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 90.75935 283.2452 101.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+89 0 obj
+<<
+/Annots [ 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 
+  71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 78 0 R 79 0 R 80 0 R 
+  81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R ] /Contents 110 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+90 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://youtube.com/watch?v=RGOj5yH7evk)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 746.1969 229.4627 755.1969 ] /Subtype /Link /Type /Annot
+>>
+endobj
+91 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Design+Patterns)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 726.7594 271.1552 737.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+92 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Leadership)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 706.7594 254.9027 717.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+93 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=spaCy)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 686.7594 239.0552 697.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+94 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=LightGBM)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 666.7594 251.1452 677.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+95 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=CrewAI)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 646.7594 242.3852 657.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+96 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Flink)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 626.7594 233.6327 637.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+97 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Recommendation+Systems)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 606.7594 274.4852 617.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+98 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Recommendation+Systems)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 595.7594 169.8602 606.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+99 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://coursera.org/search?query=Nginx)
+>> /Border [ 0 0 0 ] /Rect [ 139.0202 574.7594 236.9702 585.7594 ] /Subtype /Link /Type /Annot
+>>
+endobj
+100 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+101 0 obj
+<<
+/Annots [ 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R 99 0 R ] /Contents 111 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 104 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+102 0 obj
+<<
+/PageMode /UseNone /Pages 104 0 R /Type /Catalog
+>>
+endobj
+103 0 obj
+<<
+/Author (AI Skill Gap Analyser) /CreationDate (D:20260507061256+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260507061256+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Skill Gap Report \204 Arjun Sharma) /Trapped /False
+>>
+endobj
+104 0 obj
+<<
+/Count 7 /Kids [ 6 0 R 7 0 R 8 0 R 28 0 R 60 0 R 89 0 R 101 0 R ] /Type /Pages
+>>
+endobj
+105 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3185
+>>
+stream
+Gb!#^h/h&V&qB@WYqMUr$oRmeD"EtAVG*\sPU831REKk0M45>%44k%5^>-L%Y5BHtM4N?3dK9TV]PHnLp![Z",mjeTdd7"e$K05Z]Xjn(),0LM$:DW$)TL6iD^P_-<WpI)`HssK7hQaL+Y7(`@$h((:l#qQ"'Y>7;VQ/@f`i6ji28(b]lb,4d-!+]!n.scV[k1Co32E->V`OZBjcE#l@ri%'?;F$$t]g0Jmi/I4%`PP4qf&TC+s7@35\5P_>T9*P'*1nPDtN3,@cH,2'jQQ9J_3f<o6`W%ir6L1j`-3[52bl1SF<'>#JJ$I%`^4QmnOW9+a/,m.9M*!OXFX"ZK,qU_Y^ZkAWJn3kKh?EI9^ZJB>F(lYC`$\qSO]7b<,aXsS*H^3tJi/Osg3r&-?R]=uKD\1)[cJ>@$s"rr_g&&?7uJZ3"GEO2/F;4e?GF#keE2D?YJe$'<``lZo!M&c2r5tmN%YTSr-*uG^Z9I*5]drRI<qf=^h?>&Cs,-u2_@2+4EKJ6Q?n]G^aYWd.UCdV+:%\q7tN>Gn.G>YTFcAaniqOn/GSf<H6\:AS/^pY&'l=PZo!1barCdTc'k5cE.ng+kC)Z(K04Dpr^kk"KlJPkV8%uE7&d>O/'-/RXr0.2Kk94jTJ_SSf&67k1,HZNY`n=tZtWWFKT!gmL$;L_I\Y=Z]7j(Rn9YrVni3IqL"gIH[i)o[#lmR9`[8BYJuX&0/Id,2N5m9OD5nkR7*GdC-0J+m?V=fpKSTl[NIGZ3<Rn]sCG#ZjRQc[gjEI?q`$nCR'IeI>/S8E<"bY\`&pcNGe.0M9lZZsf8C&\o#C^4>_6R2=.m`#&tcJ(18U"G^%S+RH6$6.d%<K90IWf'PkAe%.jifJ3ORB%<[16o,5N'l@D^a3hS]RO?;B7fk=$=q;\"P#Uh&.lX"NiR95GHp%;u*:BT3gF5CH4sVi_Hd+eIk!2XsmNGk^jkQEHhRAId,:WHR#6D-n$d2<[,7Z>&'E0<S%!+(i`VqpkUG+tYIJ;Ls^V]A#q[aP23e:'4/DMD20D/sqn5:-?(!XE/*QUl=2[dLPP#m)L`<K#&-qgNHKdmBSrZ_"'Z%k#ebrY/4#A1b_'EleoV*9@dc<'EPP(t=UE-+]Wn6j$k8UYELB)([X)WBaIM$HT%JsE@>;%r``H!aG5e,Q+EQ>uIf[6Hf5])>-GCk;#,B)Z9WGDLL@(</cKAXb^&02Q2r2/aXja`)GSROheGZf\8Il/@tJD$9.E0dnbf(4e1d05GE]T:L'c0T0X8e@*RUb)t-:%LPnL2+'gXj2kc0.C5[E#TAbsnc&DE^70$m6f&HD[Ck=Xn?(12A'Z`)Q2PM1%aPB`j2;I2:K#FbY3sMn'L2KkTdDK6Ai\+b1=`df77m.q[Cktk?%c]'3p1Ktjs[Y>kk6.t=$h-(Iho4(Y3SQ&S#o]?"W\d!)/,EjkQk<G4<@:]H9=cRqJqP_9>$?qgh,EXOho#l%E*tW.V7-Z=29sO)H),GeNWH'8_McVV;=jkg0IZ^M,e@<R0M.r*0]kiK1Y4[o6Klg>+6kjN]*+UK*g#,XO;h$4uTZ"&eNbDX>3A"d&k6;/Am9qPA(hZS/5BE]YR<.ldTJ!e]G'*iD<i:N/;ueFcuM)j"#eca]d-$?>*bqdA#/N'PJb0<L-\HVV&DJVJ.gQ`qbWK/7*s&:Rug"7eC"XV&G*j%5TQO.a+d3AIC4%NZEPXK6r-nC3Jhm;tMaO6g%!Bbq)(/4W:,64V"ri:jp$G0`&Y:%KeACf=^rpW\OHW<n9sB8C+Arm*EgHZ6PWmO]Fs&%8E]0bL`.+l\6`BgWm$hAT#Jn-?<>O#$4d[.*.skU(A:^pJb8u1H!''k&mj[75N6tMi;s4r@<(&a>]='P<WqBF=_%SE#_?pS`A!?D9;Ir/aGL-**rqdX1_ojRDG33ZF"$&i9fCXiUfoqnR:GmfkhK;Q/?[",`6X#kpIg[r2Fqi;s$M*qcZs=N[/U,]fr='9@$<k32^>*MWrnN`P:rl@u@nl_p(Ed'Y%EN33$d''*>]5ej8r4o"n`kFQlkQ9#$@KF:ik`%nD?Fm6eID_IH3N)c*=b]"L/)9Q0>H`tWdZ=e*_6YC:d5W'tc,\Z)(p8Y1*ie[Fn7;b'?;kX[VK)VHo-P5D"!\N`RBVN'9=m*=Cs+I_7k0hN4NW5s@Y@CM<)KMn#gO6W-umq'1;bfbkRo&2-&[a;c85I9\RlnNsC[17WoV5WCon4?XcRSjRSkA1u"+bTQdh.<0YFtVM%.?liK4qMIcqFn[q]rWY`T@=@:b-XU@b5s(0:-,*-:d[!1J%GAqbaK?qSc]U?fpH;(p<sXl@m>kLZs*UC$8abpM/g7*!]@SX]Y2Yqo?5e`elEM=7,\1[[cRGZ?p61bi$qb&7I%kH$at6dJ7-/A)fu_AWR8?&B.jb.eE_9")C)**B"hM7d4D;tH]OhPBJYE.0T>l-IbcT__MoUOYEGEY,1LN=(`%*B6As@lr9e<GF[!C>D?Mf[HN5tRlCt@*e<HZV0UYMUMM>,rRi6rCfHUL+TIhH!RSEceGp;C+@$,*@3LDjKG)J0>r1%O<Tsr/T^XP8K\u[fZ;g"\^]ja[*8EW67*IXG?MGYtmW#2YVpuE84D!i>]Q%Le`jZkE/0fiLA0ksDs6tHj*L!L0n8K(+X,'ZpShpDceZ8hu03'`1?."JHT3VD=$HiLMN%ZNsC:pFjNV=(Co4/I]1=OhHh<V"n[MN_jW=M9!00tnT$`u68"6/R=F6^V6hX6+B&npt!:_Q*EYYY*.B@J0Q`ebR2E+JiqAR!uY/eY@M<L^l:e%u?,%&1%FdkQOiR>9I\P"!McLh0203W&lbq,./-^90f%;;32nsDe"!WqQi=>Z,WdbmZU"\W8W46;QYLB4<[PG6`!TqT!rUgU\=eS[fr^0%Rb'?mn[Q0(X>/<6]\dc3kcEFg'UW9hkBYh"2B4;I`9-DWuE]k(C9WnMJjZjS^3dLrt*4d0D3kd;a$Q:r&^(s`?XWtJP^`Bh0l-1`,8d5n9!$Rs.2LLn8[f6kT2:4rQWE3r$hh&MZ'OV?,&ZXfiDCnHIH3Qhu9A3J3[,:)n4=69iBQCO]58CAE3*jC2+B".'8r,6lJ[rAkA-p/S([\D[>@!**_PU;KZ)*=/2T-c^.1GNMC;hFN-l^h!?4Tfr3;pP@H);Q]70"T9I(4rrEPcZ]k~>endstream
+endobj
+106 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2087
+>>
+stream
+Gb!<Rh/f&F&A[2p=7"+QEh+YW0*FDKq<4[8>gpVIICU0>Q5s-J>T'H'rq.WE#Y9r[&h(8XVA6`0Y,%].ZF2G0on1`NdhT[q$2eq&!>CjE!AfYMA.09<POBle`(^B+`O"kG_]D<#=H#8]p;!tr\q!(!OrJ@Ph8ZVZ!HB^63)d;hi:P#r#U"W6j=<p\-C-hG+'RR,&>>VElWD<"CTH*PfYZ;"bQ3V5LY3Lql4BG1M6g%7a#sLJ`CfDnGXiWB!V<eCW9(RK@]',Nf]In%m?[E:UH[X+qR4G'iitL!ZVSg)B-'!hL[gi'9R_#QC(*1HB\bY4FmAg0eu@tR8VbggZ)i"3^W6GiYZJ_0=bes1*Rj/bHd1O=k%NuX@+$>r^e<9Cd48S-9&NIQ'$Ial]nK;+:=aSt_bL-"><0Co(+bf;[9d2,*k"&Epr1h1r)bKoq,lq_40D!h+YWP.,D/MkEP2TDD7,06&"M*s*jAr5io><%r:EmEmoI+P8+"I%j1VrY?g]#p.Y__'NeQ7No7PKgEu(!G<"B)KfsZiUf-P2/5[LblK;G5b&3i:OdFt5L$b0F<nlmmrVJb(Ne*PJI\NKUr+"kE!&.0S5E,bk>g959:06uPsog_0(e<A$%?Cb:uG,lt8G#0BRbi&-ie+puMBQB74IYTED4cm'+";k?$YqaLTTfS(2?k7b:0FF(?fQeT7"oqD2j'%+U&;=Qt5mS2'!RVlNSo<Oooq2P>2VZ"o=G4LQR/15"dqH-)E=`?c6E_8Vp7Of'Vl3r^MHJrI6u7b,>qEJ6GUpc)7C30Nh"._unmkTn:46ep3f0Tm#2[.ToVZ[_h;bu;<d2*(C/%45'5DC10T+_d[CL,kEU?-U7]IS?mJ`4G0.5CqS/)AO>q(.S<^J:V$^cb7I5AaoF8lL^U%F3r2iOJ\KGeVc<>Ym[^5RLt;et[.V.?:hgHW#]%)M7tV1qk>cR`ra^&9'?+oNYf(gT!DS,<0_)_E+)L2/pHh*?mY/]2-p>8ckrkX-SpN:4mq0K3P8.@Hb3,+K!bUH<k*G'^RV_H?Rg4D<=uHJ^g"`Y6`+^l0@>ZHJVDZ<I_+fFJd2pO3Z3A"5cQL4ZZOKDmS`SW7SAVP\8s]joi(ndm\L99!:mq5u8M]c8Z#^KQm>9c)2Xp%<i-6db"J4qcS//OgLbfZCD3qWH=E5tb@h#MBSb#A0!4H`=nr]iJ@X-39Dq"*P@$-sS;F5mi>28q\u(p,nKLhZnJM:1^ff$S+)_X0%*KH@4(D)9jZM"5.XO!U(>*j,)u1\"uSr?D+Ec(G6F^n)A29%?/?Zc%THjqR=5A'qOb1g-O4)kg@osBPT'6V8%jW2pITk@ui^0@:-s&E%W3M10U^`:4*&?"%`o)l2L!74h@'`Bs"6d&`G("Q\V@BA726f@M&BifQ].]J=%0@9KK1(OR=6/XfcX73/Q^f#IGh&?r_ni"F;E)K9F(Z#k"Xeclp6-jU3M8?[O<jU[@3*c[LjZ\+D*f)+`o:9)i7ZCe'm\GKAdp15G2cVfhUSR.g:/?cMS#dKAMAmt=YfFQig<D3_p9hC_]D0)_b_#*ob"&693,cPW-H7lM:6D@0em@Z9%kKM@,ar]H@EAqk:E'sP#U[%41EpKTiIgZ])DnM$tM`Zs=LWMl<O=*LIOXaPEkk>jKZZu-i?WA.u6*Cfa;3n0]3l5X$rb1]Hnc_As))ldS7W11P[cpI_TH5Fh98C-'2o""-A1=nEFrb>'idH.KIV602>DC<\99cR3>3fmTh#c[*o,cVs:hleDnlZ2";@!Th7;0))h,q"&up;;_UiJ0V@].-Q+-I!jll#XJ;9I7H.SusK`e!8q4<-a6>I0ip7g&h-4<\8?;G,coicn0)Q4#B$IP:@8@X[+AX%`P4^7C1A!??XQX8OGG/Fh6'3*B2rB\5b=$,tF+kU84bW]OEL-C([ER7+0:JadM.O-u!E.YKUD&e=rs/<\d4H&^jR1Zl1)>77aH`BuqKs7S$,`P%oZG'HsFo,UJ)QC(Q^?-Du:8,$kDE*:b\>BG%mYETNGcXNk>7LK;HO4l[0?WRTF4$rM^M/_:Q.$B^$)7hA[FbiGDF+#s'<bJQeU~>endstream
+endobj
+107 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2276
+>>
+stream
+Gb!;hhfG8H&:Vr4TpP*?3YP7$&jIFaQaG48PGYVRqJn4rQ5pSW>Ti;(^H]gE!NE?*=>",Hm6n%_hb&:M>tG"t;#J]:s(D_ST+g_7HNXlaP8QX(+^jjIS52noSWo:&$:;c`Y<)l@*XmQdL_"2**"'Xg"L>RSJ4f2C"\o>Bi4-]MU?N;LY1]<IpNJ=%#EuVpdhdS/lMD(0Y(qR`*2,!X_DWQ\&Fr!D!s`>.:]qcia-;5i/.q8s'EAag+Uq[ql4T1u0RG=7b$S;l$V7T6hHG\DI2ra(F_IGWLJjkMZNh7[@r8D:4Y7GcqS'RMdiQ08NYgpF&5S@@o](Q+]fhbJm1G<+@mR3HK3Itbf7Sl#$R%Z6W/#-Dor^B];p0LP@h>ek!`g@.buWai[$dW4-C%]3GGq&';F_l0XL*r+&+O,Vnc;H<&0f04#ea@;?``2W2#GZ,JGd4!P4:1o\Ba(jMi2HUlr#2>6;RBIE#/SM>n@fbQ1E?"N.5o[TmYh$"$_0QB>37$!$;Sfabk[_q(j##DI7BLk_5R<n3"I-f2-]W9Rm44)&.URK_'rTrYA4H$S=AtdDuNmN+=6_)(QO`:ZcZ6GnqcK4_8B`]cs,d`D'S?*Cu8FUm!5E?%0H_HrD2\[U_IUAY]823>>EQQA4>OLmF^'Eum3G6DPC(1;kha3a1Eu9:ci;Rd_b^'B*hY"6g5!SE8[9&bH*n:32N;o-BpH&PEHBV99T,iZ`j2C7_ZoP7WTKU3j0OQFbQY9E3sJO_-jVka(=8cWF-,:<#o9k7_tW<>Aof<41-D_l8M&XluCWd'Z9l2/0?UHK\t#@]:fT/\e<)HR>eQrZ=g7)B)f,4'=!A%5%!AIE$9C_$sbilo&0,ZE2G;KW98jrA#>gq.=JOe1KuE=JV+<oPk5pJ2@2sH*rFN<N&'e\@//6(41d:oZq",+OS<j.oncEC]Q`)AH!ubPp+a^)Y#rIMo:l@D+r9;`G9BSNaeSJ*5#.'>dEQgbU;n:ZRjeQ8Q0gMa_u$O4aJ>oHFq!$j7@>8?c<UA/^i*0p;B6L(WW2Y@g-8@Q+/c`j?->1hoT5@.DrbCO)Gj2XB$MD>!G*1Cr(A/O5afoX3297BmeX>'pC7qEQ90oW@d?\,p3:]$&jZ;3)k<K.04Dt'AMq\c\O0?Su((]9?#Yo!Yb07T!@C_&_BNQ.^BS#<Nga]Xm,$kLUGcVERR!bTri/a8X^/->M\P3$b']JVZ-8E8)[_!QTPps]fDJLW#N6Y.icQ(Qgq!rKro7fg31&4hcAG\gn)SjQXH=9T(Z;q)'a(UmM`"0!iup?p2I,kAA;Z_de/5/;6E]L[YSt'XlT+0Nj:M)fon*aT:[%^DWTkZIOfJ<^.;<u0miZQ,997*C8Lf_o9&%Kn^02jkiALpj"m"bF&7Sc934`.5C4`Ol$+9tMPJdhF5k!hk37Y[1Zc2;kPqZ/<%uu1]beXr57[tJ\G`_b9)fE60+M=CK)sW2G1q6qQ;"9LW2>)g_L2mJ1J_k0s57jW]tpP;R+P"qs%_Q?XJ#/oT9YLi4XfGgdWCV0R"([3W7[O2eq><da?P[)rA]HUK?HJ62"ft$EF"=Le$D_-k<sUY1EONGE:DeK4mYU:e&:J>-$p*S1IZ/&rG[X'3&HL:e't^NP<MRQcPGk5J+@<4H0FjI2.40M[*nJs=bm,tE%JA^6B:NEY[SS`nS58cND0(ANcJfd#*N..hhU5'FEjc26Im?kTZXrMPW'X18d%_//jU1SD="Hn"`Q;[XX,K'5Fe/0hu^FQO]A=B]\nXf,5'\YToHBNdiH_Q(]iE6Y`D,fE,adjg*,O:Q@6bK_&O\)&*+^N&BBk74GC.bk]=IGGnEQWJD]lJKf](8&Xs4F2$8-LkQm4eR?N^@/hC3gd+Q&_=.e\-Du"K)r0BNC="3GgJ#EV^j#k@=AO"UPHRR+N&HD/oS07=*:Os1r0S%$3ON;?.J=@&sNXNS%cU'2KpY07V/?.1O+I6T(l5Eo7Ocms(eSnH4M]R!I2W_?$^ak'9>!Z/ggEYT-hgJ^1:rU!MG%(%^\ZDK^N>c,*^>?B!;&+TKm1oe4gN$E*TX`N='U8s5H].2jo",\IOXqsoD4)N)9%6m4)[]/@+_`?hhm@'S6rAe[bBR0k7.L^$%?W1kOk7I573s-0/6PpreEWAO<[.?^MM=Y;Q&)lQA5S3=(7$L$&T%,5(+Tu3A"a)BC)`3P`lmgE1e"?DfH-s10XZ\L1$WY'+J-m[fU)[s!>X^)PQ/$q&KWj`hiLo]LJ@2<nh9;N3;FX&!0hs~>endstream
+endobj
+108 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3259
+>>
+stream
+Gb!#_95iiM'#*O1e7AmA!MUp?pKeV\p805%cGX#t(>+OSe$1sBjcSY8HOo`&LX^qh'?MS<An2&#M,[H&7IjrnM@U,OrS[VRnH.Wr"J;hO?im)P@)m:qF:20FPM]/.8\bM'jd#9d#DX?-^iCD:\KP'-@P9F2:](<"C3OZ*Kg5^_G!(P.\q%VFoL-Ok4,gnkk\%'_=,%m@q\CBa8(`UL@erE')\ZEmqjui#7>UEB(bFDhXqPi[-2W^I!B:*ld_LT9gOYU+oOk%cs&<R^ladKJX^tW%GEoufg0I1a*\?!n;$QF-nq3K%>]4iPCp/(Y!<Q]T%3h/_H4:/GPe<o_T3sr>gN%SsEub;]ZdLTG50*9*`.]NW6>UoMj1Vj-6lCDFdN>"[fFKOmYkmdGE1b-A)J@k3`-/7:#X.lO\.&JN>nC?q/*2ELPl>QC6htQJ#(F(+AU^-IJ=?u8U+E)(q@*qW^TY/_oV-4Y@)!\ia:/41J;$>X*5KF-&0k!,U<diQYK\;^NO(TI^9snn-P`k]h;PpQKu/mn>K0c$:Grm]#qkJc[oGA#boKYe-'q^PPZP;r.Rk1oQm1+]',]N\I/Wb8+eMB4/I^*Fp<jF%fmt`An]*6k_6jl<?jldLY\3-/nB9+tH09[:a7M2]:1qr^Kf+&gONjL.U=G,jko/P-CULoC15.BJlgA3?17.AHio;=ja%o@<cUWcm+U.F&KH);[I*DqBT13W>N2Zk+lRMYP8aWDT&5I8]A)jA')rfp1N@)kTcf3Jm3pM=*ou:C,9Jaa;DA=?&aI\6%U?[LId<CV2LfLZu0G2p;kb:-M&fe"4+?BAi1k"@pPXR8Ga)j>=n<8Zim\95&?;b0`,$i43-O#*ZqY*Z[h1#,9K"C%,#\koZ]T&Oqg#qt=h&Jk#drpcl4d$(L].6("UW40Z#,Wa=Mj1rIh<ZD#Km-?qH$7)7b,Y\?T,7lC7)uXi9FQqk2V2g7&)gr9FE>!*C+?uia33Y:/C]AhN@&]oH*q0&Ubl*BL>HoDfHt?_0F,:dS$%V1'[aV`og$R>@R6?ELp-f6l#ZW0S^E/.@Skf_:k*P2(&%@F>%'mmXEDmpZ.@D+d9#JNrjS)[-5M;W="02?4m3_`K8sOqkR7:^rPT$EO8(>0+US=ilj4]HgBA+[:FmGk`<OqghP&nhEu9d_X[QBgHA@A:9N&O&5KjMEkRk"[,SqA\/3r=_^ajhMY#d^l[Fht32=eCFr?t8L)ccb[]L;^#Qghk4A[s34*oAhAX5//!Y:3qAQ&'A?2+7@>Lu\c\%4j&?i<C(TYA9"lXjEF,q6`98CC8^X0O2&U]P2E9CiEg8BON/D[ucOA78dXInu?hpeC:>mf=-48g9#Kaa21,+[C",*YEEh[ba%AVap%>*2ANsROe)eH@.:VW5g7IAO@5:$e@dhF)sO'Ma>Oj]nBQ_4k]WgW\6<P8,0K*P=;8*1;]`jS",*qUL4SC%/#CSX;BSpLJ9d;BYR@dZrJ?k;Yhs$@9Aju:JfA_bEd%-XB:g2:42Rq5e!PR2<lPIS9oN;4X'raF2?AW;>QrCG?CLD%bs\RuXf.Y4$C[N6CaMP91YP>T%X)X-mIf20\\4lGk4X,gdbJ/-8[DAJS#@cZd;I7'2Ia`t+LZ07gV3C_B-<R5@Hb8IhWcbW9tI4XVZn-mnp$5`X8dViA^_o1F<[qtaa/TM`I/=N2lW#C^.7[TjkKM.?#WGDBQk7P,[g3d$MRSNSPo=1Y4E>?L"q*/e$kFRC`[<%UtM'YigO"fQ*]4V#[0t05sC[c,N9UU(aE->9]>>XS]j#1KlbC7UZMAo-#H?*D2$PpV12;)U3eu%-D_;.%q^3V.596W>h,2KPSJFhM4^;Y\X)W:<T83E`KN@IC5Q1-CYS92dC+<iJ"'3nE?*6^1)Y!GFI@"?8Muu[>G/CET7nFhS1(Vq#j@AqVl-S/9IC1c2M-1[b\4S\PF+ea$KS?E96.Y`XDd2L[&^X85qFo:.WSl\>[>n@DMm/hND5Q4m'iYiX0EgK1GlV7BbjKSQCeSrKBD@_i%,npif&mR"]jqir?*2!"H<,u:>,uF-C8_eNgf<_7VXS/PL(SAo<ls)GT:?O:#Tj#AhKO_CP@"#]BZNS]rg"?a_%31UCB"ulHr''Y8;sfHt+F6diJm(Iu1&KOTM"8:Q*KMl(iA&(PXc+=lf*[_H^0m$':#.?d6L<1tQT76X7&;YX"W?7c6+Zme?(MSXtZ*QjTp9K'sXWCKJ:,A*6k$P-fT5[cXn.7%Jk^%&.&>d_P4iIhPbf^:<u\EN-`d@Yi@L2Jg(L_;$l;9jXP?lYCa)ZPa-HP4's/<f'=g>N$\pD$3Nq[Pic9iMfDpSf7RXPX^BU/RQ6?G1!noDXHW("pGb]6.9l#7M%G%N;@\A3&&>3iW'c/GH#cW)$bok/E&@.*&"b-]ATr;]as,-))N?TRmGO31E)YZE7sQ8bFU0?S0lS.r,dQblF\'B@f!+?CY^m^mJ!['B$;TTQgRVPWGMd"+Or`p%%\fN]mbSCCb.0NUia$AFDFTe;gG'i$c<_@l!aL>`LoT1riLTTm$O^,l#=m],BtglP%?OMiH,Sj@?&qRViBek\st[D)c!/NAjp]^J"&*8-s9Hsg.9LgR\@N3,B,s/@,#j&)hHH`2<d+&0pWR>P1ilYG]tqFcPkdSo;Em.=<PD-1gg"(A[ddql9EC&[!>W-6]Ah6b3V"fVoe@uF%'T<ipCUWAR.T9;u%R=KC^A1`mJ6qm($A>k&VAOdJ-k2dmfM#lf$smDE]"j;Vk:;+^=:n=YuEp.ZrC`Jp>"dkE@qm>Sh2&r']D\/BU06O5TB=qjt(NZ)`/j[CBT<mZ&Y64Or'r(L[MPmPtYq)p.%Y<H9$E;d[uEqB`S`n,;@./]?Tt9"V8U1esMY3r%)fKkNJtq]FLM"X*a(l$<10r8sln3@<!?39V3C#qYdCob<Sr36afa:;<c;5E'cm#i0q&K/<3UNQ9@\3#bAX;fE[=;qBdtq>J/&AiY_=I2J6E9tDq)Gt#KP94^Q1aF]65)P7<mFba8?rM:!.rLPFPq9lc0a<0M*U%OoK)kV&`G^&2S\FnDM_QU`4=1anF[ir%gOkgSj2`0pA%8A%uLGZ*m=0eX&X::::Mk#OcmB+Nc#g":?\0r7d,5t\O'U;)r1U(["DO>ud1N:5?/=V20B#n"0N,YVrEZ9EQGA\_r^!^tAZ$<5ESiEZf+8IM8lCjNua=g"EQ]$WRgiJDDREMXd#5<pZ%&hsolCj@W[nPcA:R_,Hrr~>endstream
+endobj
+109 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3087
+>>
+stream
+Gb!$K>BAOW(<>>(.I`^J`[h)k]KC=Ia*,'>D]E!9S__BqA&/csM:>F6ZK\8o5S?Z8+ftk29Xs-IKfULY\GU;j!!6P]l9D`SpX>Rmb8L-;L(VGIm$TQd#r8!5le.d-]K'(<@u.hVn@L&M*70Ld6A/=X`041#^dt^a&$SFdP!r\NGi\ZE&Gjd3H$c/7'TkVBfq2gKZUsD6enFI^4j*_RP>HQd\Oc"uBsYi^(l48uS;0EdiqXaa+uWnuIP.FJLkob\jHBsH8YO5scT4qpGIT#VHLLC`I7dfc;*X4*^Cg3Oo2G]\=kNKD*14%7l(4e6.EdP$pAje9,s@]0l1a%U/7h;3k#mAb#q66"*D`(.Vkd"5TB`6=8#N0L#JneMqu/$\plllF1QQkN3Kc-.!%Ehi;W`LoBeT'J;J+m-Ss_^;V_ATOR@_i*U>lObVkbi'VgG45[@a?Y5L19%hfrPr.AOT.[@aGC)GX'H5Q8h8-^"5^3gI18T@;>jj4A.oY-Sh_JJ9IZJ!F*S<XkqPL%GGDd60Acqc-NXkJ_aD_.R#^L47+4Wpm/@Ott:g@>0ehU$nW1"B4t^%6&jbmpQgUpuLLS$Di3"OZ_G_VN^3d'H@6<.Q+tmGVh>;!V)P+NGFR`YHt#uaCA@P:M!P)/HDss5"PQMpE;,:#T9@BNuD&2,WmK]Sap=!aG[E1Y.*J3URonEQ2^H&o<ek8(15QoLqWu*8,toLkR"Q?ZZ8'2a"<l2HG=*h.b8@+-KT3UDOG>u6%N[`-Bk#C`1aWbjsC^8kI'eJa7NXqFIC*m8.-]=Vb34Uq-7Y,CAs3+O-^=![kt^_]XP:aD#hg/HB2h6I'H87e/Z7[MP;?AXlb1I\UW(D^@bl(%VbJDceQutT]Z(4iVL.Iff&NnbQ>7/lOG]Bjt-)rVQ?'??>#0Q;lWBp"b:HM`:h_:.<"ZfA=j`KAV0-T3dGApN;5pX&E'+[-KsLKSPkrV8r?=*_/!duniNKLE"!e9Z8?J2!<+BeQV,kSV@!>"HsH;T,lSn4QhkQOjOQ2!#Ol)!D?+maJ6p#m7X%eS[YX+cE#oq;AaJ'kcM$fgMK$ck]l>_:**[\B@[ZEu?7I^%Ms"+>'gT2A:1Q.8K_A*_?>72UW`8&g,b&^*hIf6kBo@AAj!Pk,P;7').kI<05B*`u?6]A'=6jc)i).E:W)La!F,Oa9c#I37l&S<H09J_pHU[N)q)L<B:,8kB4Ub&>8+eIYY,1T(nU8MBQk)\aFRnB=M@Mh_eJlPa1G#8=PqI#RVI)11_]`\$1d_>UUUpoQYJ7$q>Fkkmnsi@&jua!2Skm'Moblb`;</^)B&gI8&S&ZT0Y'?,Y_\DQ^9#c5g^GHNr1W@L<`NT1?8@pu8M]\AaD9IC?ks=rG?!g3rTB.iETGmV&5.'YG:`m:2Em>o^df;/-J@BnRA?6:RAANT>]%V0J8*X+p9sM+nnM3R!mD)4aMA0PO`MeXeJs?PJOOOq'S'\EcER[4VUIU^fka^Re*ahB4U8Jt=U@@JV^&fhf9R9KVuq_o7EuKg0f&+>Z&MUgf;p16IT7ZJ-%ULfG:rQV:)cW^K/lD`K*TqmhC&g00c%[9q/LZX(^]'RS:'B[,`gY<4tVWbc:<Y(%D^7X5''h^U\@8VUp#15D#hRQK*0ooNAE'6"\/XhD@2l7o0XdZpO_d;h7NTa1=68ER>>q+HWtfg$.snONhX^M*KHju=CGp(j-"i2n#=4^(N7_q?'J?$IF`bG_cjjM&RQ_JDR-Lm!LY:R64jlT<+Za:>s;=?_"VsFqEPOeI>ItJGhe*"kK(:UR<a[uSE(+@):DuW&(CGb6EH--gF@V_m8Aj'_cTP$>I@QMd2VI_!Hb)M3]V<s`Hq@p!&kj@_$H)Ai>u;kRr$9i4lH2FO,t-4*#)20[[deUB!dPm#E?03eDS_tX#Ee\bl]M]B.DZu`=46TjoH+>X_>>@O'JZY9V9Q\+2C6*=2;@+UZfPGB&i*c"Wsl/85P4ATGI<!J%+bH&7.Gb^:2)99YcCG33"T.#EGO2Wts`uhr>]7lMGM+>eg"6896&P)ibHW:-?.S]=4=A_EaJc,b8=4;06p/Ht8mUa+t!d;^A#ONq[l,e:uI/&`b^nbGSma!J'Q@rc=BpieXiN3pD3jk6Nmb2st&sg-u.M.BJs)ph*JQ?0tkC2?JUj;V^Y4X/-QAWNpfTS'?[ID2'g+!j[e1(.6KhOb3l[Cud;pP?@/Cm\]G3J9a4'O]Lc7oZ4f=Hk#\gc6_jp=jqA&am/KK]384,!;N:e`mA:o3-&o.g!Uide6lrO!MB^>X=Z)LajW#i<#]5Xgram!m!WSS(a&M*r:gp*H'B'9nG*S74o"p[NZNRc]%%bA=]6m"6!kX9i$ji8[UmS<Vt]+l9[4qSpst%l)1Z!OMO^I-VW57*f=e/ebiKR.o'2&a%EoCsbDkT.;3tl"fr&]$W_,_Fn.-(']@ObXTeqXmKLXB<C@FJL)V6k,mD&V#.KD(]^tOESjA,__LpHR#iU@cp3U#Wm'JYB,&k:`^Ka$sG^0Xmo@3%O>M)5jd*SJnmG--KTJOYcS!f\DdYZc?XTK*e7Qe)a(_!El.#"5R_*n5AZmX8P.H=-\rZV'l"E-R1JI3AHMlhs]1fIinKHkZFOK0;D9BT,CKr6t->W-/D*%_GofE@Mj$8WE"Q!X7M"Iq/QWK>$Y#[/Nf"oB.&GM?4i6Z1u+1]Mg*e[i-^d[5k^Ah4@Y^/m%,=3NdXU\>B1amX?mVr@cEJqjVr\Bmueb]hO'lI'bbb6$$A3\YH]O'Batu-]XWWR`kC7T8*#qU#qBtd^gZbonf<Q46fJ>#i)TomG-g1^3j'<<`,?l"l6Hf<j>*F,V5-sGh]#ICQgc>g+o)>`[&/CBpnn%agXsFCLXEfS0Mm=b[k:I?'DWh4Qr1)ARhH?'5^J+r+F2`/fRa92$K;fn'n&ACeV37LZYm#R<+iLPIYL'6.ZfQ-IF[WbJ_">DOJ)hi)Vb[Tur\C>W/Hs;_kC&c%4!FM-D=\2::")V8e*6k]TV"nS,J3X:fX`oWkf$];rB2\`oU5m\m8$l'^&hVO"p`QdkH!Q7&\Z-+1?uD?$j;,B*Pd%`#Z@~>endstream
+endobj
+110 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2752
+>>
+stream
+Gb!$K>B?Pt'Z],*;s:>tB0pb$esF[*2k.7>h57I3REkGY@)Z`1EJd?9p=!)N&0_LeABmH\ZPPT?r^-JG+N-PK@JM.uhshJU+-u-F%g3K%Q?S.(LSNrG\lc]BlV24&8jhfeomV[[d),m)3;9Zs,0.ZC#=80s4Fu#=>nT+?U4L4la5s:)FES\,"nKAsbKjkt:$LnDWM,@H*DDkkO\Zt]/oYCTUtHp0pUH8(8q$+?j=m4;4=nH,H(H\4_#km`!CQ#aUKjJ(DktkQ=!-H+qD!r[a#N%oP7n.fKs^b:TZgDK\__>PbWEd"k1Wt.pN^pFgipsScS"aJHKIEY]<3BM\_DI3f/#M11HFm64O(U3=f2`74S.E>Nd7M3Y<3iO2!?7WLhGunkF(o!"?'qK\phsNkWS'aBB&HV[6[PsK,Cg)T&R8p%s30V.=PDQVoiokBlOl%WJ\#3"sQk>XQ#h#:1KUh*Oh!'hgV4H.0&%H3Et8dC"eEFH>Jj8$:E/$-bFl;Hd)4ncp-Wpit5$^p4&W&`SE0(%Os/!AQ?pCbc(s<+7lF%G1j*ONuajte!o8f4Gi#Di:9Xa"!!p!r^/<VpFk=^l87b"K91lS>:4S?S/aOK/8rnVOWDumhA;?n*Rajk`5O?I7*j^[7<BK^_ElA5cg!8>/:37*6[e\=WdZaOeHG\j$&DU`e0se5?,#'f@O'62^3e()kdLd!.]mL)CJ#9(#RU$?-)*LpZF-GWjm>hJd/)7p!5)+"ThX2L%1!0#qa%<I//,Ppd]Hh=13=%(;2u@Pkfk-rUUm%u.lj'jV00>3[,5+n1rADrdhfubf?5c#G;r3ZSE3=i5?uA`j.*n=hMS$ljX:os,\-?Km4rbh]6Rq;\8;uQ2Yg4`Q=piChkN:G-:!3^=TGSrN#m-<ojh09?J#7+*@7a%B\h/C[$1\#iJXKCkXM@>FIT'tnW/Q3(R_?6+`\IE$s4n0MKS_/3<8s"nfY%S0CW%3[HIg:ibeajBA<q]e1A03S[TQJo"i3.HDs-Y%6d47*!!"tg"BAiXWO=G)TnRUkIXj_pI;j4%76H's5W-c?#orgM?WiuFcB)8fs3X=8C6IZZOWbpTk>NT\\0KF@H;m[$B]8G.Z'&A92r]BR^3E5>h]`P(%C"4!PW)lnK?g:8s=a3Ii`B.kE\tQA5%d+j(Q'JMN%r++F9?H/'W>`486Gg-g2C\9YW!Mlu&/nd(9IXr6ojiFFR&C%4[to;=bW=5X1"5kPqf6>X%#5"F1P=3Ee8!nfW6s=&2[/Mj4><XkkT@T"C<H%mI#-c1]7rC+pIAAT9u&Xqa`^8@?2,Oc^VQcZF7=ULl\NDtR_"i=$'))54O6fSE%M=VoA6BPp7/!,YpD@t=j31BnacblVQ:1XH73kX?Jf_p-l?9Rp6JoL<5)Hf8Hh#156H(duUM@ko^W/;1mM*(jT#dDP*+at*Z^=_XIfZZQG1`#2%j'PA7?F.?IJR;fU*"<=!@Qa_?&IT8%hcPF.balp!kq/CtHZ37+,*l5AR"8#^861g*R#>qg8gn1!SgF8f3OSpnjo:9^GV^-_fU0Fjq-MBL3,I!baXq+"J(i'[?$`n!4j^Su3CH3TKM_]o.25<E%f8:eL[_;I@."g_$UC<l/JMNc4AK"aLe-qC)/oqU>m;)L3+%0@5Y<kqB2$Us&('<a[,=oigP7F="9KIuu"mL8DdVY2gL6JT#b@eBAEMt<cZJ\%<FHEUXI3clfHDVh&W0r:nlHKI;$O-*>=]1ohfG@!fMpqpI=dL-0[;@d[Kc3A*(hsU>$`MmLTsi2S*.Dm6VOa<nc]]a(B%jp7EO+3%1<r'QpL_cNC'FQTJtQ-qe.`-.MD7:ZOKs^)",NOgB)kf8kR;:ac9Q2E`.hXOA@q$:1qGVjSPGi@s-2[1Z/)tm7cFiOB8SL(RQ8ZqhFonU?oW'mR\E6@-P'g!(?.VGh,PMI[V]T772nY@(i9gA$adU8dC)aqGkEB.B+Ys6#UPD[@Onb$!-8X'H!L^*MN8mN:J<g*Sh]IPC)3W:R7RWV,5GAPEmSSU.7g,[88?*U-r6@(!i'Ceo#-A1AEH8mYWS)<is\;OO*loG9p,gJ?u>kM_8Nl/+EG^$>D%cR7qPL:Z-=I0"#*Q+a>nE_+KJ7T4JT5)UMR>&s.u7cG_(#1.D[3'mZZYCg=_]%QR<:'%?ai`b?$VH8^i0Lisd3A&F&$H6hFQ2^B,BCd-b,,R<(m64t&+8*9p1K05uB,8,J;Af8gK&I(A"6?ho)Dr?;G4N4>a#2ba,]5q=n;k:g;9&6u$Y^.@732/"j=k^roH,<OloqS^L'PNMF1SB<e^2Zut+*&!W7\_,breOkQgPNP4S\EgPH>3RcJGnX!99feV"nPn?rJH%2#I"()YJOb-6HO+Do_Wj=9DD!5PkZKLZ\8@Qu.lUD6:b+8<lU.+h\Cskb%XZ]^LP'sOW*NN7[iTq#=gb'rTJg!bPiI)'OQm+ZfcIu6?a&rr*MGC!,<WGAQ/cgOZ`04RZ?dON_j*'J?e.co7H!UaiV!\*bLY"$S'&[\-Dm2AA*G>NfpKpY-8e`4WD',JYhX%gjYE!fWSCH"[qg"A'C2*SAg1LoBhd\UH^^qh<2OQlR9'*'Bh.!t2&#AGBPX?u#,,4QP\W)?-;QGfY)-qkDTu+^k0)j%2,h&b9O??3Br5bg'!2X8[gn6qLYXH0C9ZHQ=u1>+;/=+Q^62Rr%-sIe-!KssXEV5+Y50!d4.Ko$H5P5FRhduPre:$jf%>JSId#%+)WCOR~>endstream
+endobj
+111 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2649
+>>
+stream
+Gau`V>B?RL&q6H[d4]k5fpX)D%^&E@3>Z<`Q0`)qf/[tgP6]'mD'g)^J2cMjrUJVT+M`O24&hAB@Sf_rp#T+F18mJ-<u(`_97Wcl*/min2&OY)2&$/4(N;G7nDck_EO`eaXK5\^<7`<(.#).Ddfm]9fUtPfk6'4-];[iK$_!jSL1T;i-1nD)S:UVN`nt5&/(aD&0k>c<+e!:_?s:!jqHUB:`JU\LQ=5E?BsqHMT]igr)D27&E1DY`)ifeR7u,D/JV_//=&d=lZTbBngIH6^9oA6J*P:7-UZnWqA[g$&m\O')Tt0$`(Gs`*>#APneI-[RDPHe]H;W46coK.&i0Yi/-F8b9ZI4\ua/G0$\mf[i*K2gopgpV)J+MUoIYC^3<hW*fCRN3!lAri*'XL:-RUI\3C1qt[^[c(o$_q8XK!&jU%@gc%,+P_ZRWr8fN*m=<f(Ju?E5DN_bpb?N"rIhipJsM9)#J/C4V>S.7>4'O#+uM@q.kLI>[Eja;6bccX$,O3Q[Drn_f3Hp(Ume=D5YHtl;a,8jRfo[&4Is+cd9>+UcDo8TlgDRrW=&9ECAgjZtA7!hA`H_=aeUYs*qO"YO@t>$9E>3VnrMkCI-3?d#Qc6$Nen<=)bR_b8*/qXbaL^U!.>ie&lnP.U4*5P`DY4j6P1C*;FSDoY_11fBeC;-S4uR!F4"t@8SO-Ri.P3C"e(gq4/.I)]<O5$&9HhUWESS+QIT4>;1EU@+6P'7D+6+S`'I57NQ?*G<tUkcuu(j`+ucAX2e.57CV'Bg/ldn(=XsplDUh/7I:IPV_!]AhPpa[oo<-[JA-W^]8#7OK^JuH25*)tgO[`J3tkfbMU:mN*cG5$=m_$g!q-j\hUV/Jd^Tt'ehldtD$Lu[mn70"Za/rB(Wk@Xji^&8];isjir2p6ebN9%\J)K]7.(2Z4ceFnV/^-\^uL56%aSK/Z/$"K;nW&XgrTl%4bYtKCJ3VF55j1'9B"1AIO!_X*aWGt<sLni[m,H$pltNMLV,Q0j1Y$r%isHI>L_9?i+k4WQV/)fC#\7DI:UmQ-;N4!`O?_R[1g#LUP[c;9*td0fIfm7ch]Ra$GParn;Rs1msGW#On=W5qfh],B8`eG:!j_iq\SW?SUMl3]0L.)hCc%dF4YXQl@-^emiN7aYr(2<`Qb@BMD)O!q@)$\O7GU&Z?X=.Dgf-XcW?H9Qb8<6(+r0_jM8-DN?6b@b47k$W<u2ICg6H2+'1"3$cSQ#njdf7LV,3bketagZ1/n+[a`2Mo1*>c7t+Yt?dnVE>f+>Tp1^17IH++mb9FPD192V*,gr_;]d0W?9.cQ/[A%2"eV94n<=;D'BU,*$:Qe&e.4P1[3?[F:'QTTB;GK_RT#[IfP>Pdn*dpp]75"VK?+K'd#:<;I8%a(C0A!U:rp5OLeK%(bjE\G`Vs;+>W8.-rS\oW[5)dAo(?=M6#$A4iM\gZT]Wmh<L8lOe/(WA4JY\RbTReU77lFC-/BueE-^e[`g:Ik<)Z'K0+5*dGeisP[\^,F=F<8ZCGSBO*lK6K`cSmoq)GVV18CgZ01JSfX__j0/R#r^b(q)"X]G2`IF#4uA]G8?E(5%NahRo4I6Zq2:Q4.V:e'a-6Q<r_3GM-1EB(gD(L&[9'MQNkTQ2C=Bq].)(1@/Y=P_,]8Bp_Rhg3gO'R4&2T[B\s.qR?C5qk&ArVM2u\7$B=9K>YSo&FY:f)-t'4T`-;3iZ_\f$&oQU(&dF;+4FW_i?k0+?l4<!j%b(iUEtVD?qd=U9*T[G#rb0&6Yt!Zp0?%f6KA8.;?>'B3"9j*B.UpIQf/WYhM94I(A>\)=#AmRk?3Pi!IR%]&]7(;OH(b.mSZPIjZqJI`u[%n"(ksE;<T6:YL0EmGQIH^d:(b05tEZ+4F%P1fj>GqqK`bbi6P^jaa9Z@JZ"j[`SN!+>qNpD>qper9l#2,V]EPJ+8(t64^??\+lm3(%&KG(aY0g]hdNmd6JnUuM8D6B-+uBKUr7X8K\@QD_Wak_1r3LdQWpS9q'@+$F'/pX-sWM$nTr:k7G.`k14Bq?K.1JG4rWIMNoe(q*ZW!5m6p=c&p)A8;)n./hps=k:7d-&#>>D0SW5Aua,&,`Om;*ibERs5)F*_L1G9=^+sCplL[-D(s*B,W'VF^A-:.Y/*[^5;%)n;903J5gOkh3N3M2Wp=nuLcHhX6^ZIajFL.rUL"CiqPT[X)X3>A_?CC_Y?,o"p]pLDJ=aAAJPQu`V6ZlRbb&ulI7ZWbY3EmpR]0%WN=@?+6SQ%?ec*$\mMZ'QGJJ6NN&qM!6u.OMq2.jEj/&EH#U_qVncg\&W\]F"6AQ5CMsR!muY%p/\`!UAQkXIJ;anYp0@!9?'Id]l]n*LsBbj7"4@5*;V_QP)#V`iV8^<Mi=KrHa?DlS)O<N,gqDMbKtgp/Q]/[i^NAeJWsm_85e4SDCU_W?$2?1LMZOjn;=\;';n1!"9M^)11;E=:Tm-9W0W$&W4u-g<.MF\ZG3]q**gU3!6EDCGD/?=W\TlJ=<OuO\9WL")9H'brY@5%$*pV)"l)bWo<0iA:R#]ZPhS>'XMCUBB4!"WOSI%ff:_C<tt+o2'+Aif-Z]-^ObA>P9go'\\50j2GT>CmeSg,'+er0Gf.]P]oL!<k"Uut*gQ1"I]aTXV$0'\$OIJ=A,~>endstream
+endobj
+xref
+0 112
+0000000000 65535 f 
+0000000061 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000353 00000 n 
+0000000462 00000 n 
+0000000545 00000 n 
+0000000752 00000 n 
+0000000959 00000 n 
+0000001166 00000 n 
+0000001359 00000 n 
+0000001549 00000 n 
+0000001778 00000 n 
+0000002004 00000 n 
+0000002194 00000 n 
+0000002384 00000 n 
+0000002576 00000 n 
+0000002763 00000 n 
+0000002950 00000 n 
+0000003154 00000 n 
+0000003375 00000 n 
+0000003578 00000 n 
+0000003753 00000 n 
+0000003974 00000 n 
+0000004174 00000 n 
+0000004395 00000 n 
+0000004615 00000 n 
+0000004825 00000 n 
+0000005035 00000 n 
+0000005390 00000 n 
+0000005590 00000 n 
+0000005774 00000 n 
+0000006007 00000 n 
+0000006197 00000 n 
+0000006428 00000 n 
+0000006659 00000 n 
+0000006879 00000 n 
+0000007085 00000 n 
+0000007309 00000 n 
+0000007501 00000 n 
+0000007734 00000 n 
+0000007926 00000 n 
+0000008115 00000 n 
+0000008309 00000 n 
+0000008533 00000 n 
+0000008744 00000 n 
+0000008938 00000 n 
+0000009160 00000 n 
+0000009349 00000 n 
+0000009532 00000 n 
+0000009754 00000 n 
+0000009965 00000 n 
+0000010165 00000 n 
+0000010404 00000 n 
+0000010643 00000 n 
+0000010834 00000 n 
+0000011048 00000 n 
+0000011240 00000 n 
+0000011440 00000 n 
+0000011632 00000 n 
+0000011823 00000 n 
+0000012269 00000 n 
+0000012499 00000 n 
+0000012696 00000 n 
+0000012911 00000 n 
+0000013126 00000 n 
+0000013317 00000 n 
+0000013534 00000 n 
+0000013755 00000 n 
+0000013949 00000 n 
+0000014146 00000 n 
+0000014338 00000 n 
+0000014534 00000 n 
+0000014736 00000 n 
+0000014936 00000 n 
+0000015130 00000 n 
+0000015335 00000 n 
+0000015528 00000 n 
+0000015727 00000 n 
+0000015941 00000 n 
+0000016155 00000 n 
+0000016351 00000 n 
+0000016553 00000 n 
+0000016758 00000 n 
+0000016952 00000 n 
+0000017171 00000 n 
+0000017382 00000 n 
+0000017594 00000 n 
+0000017794 00000 n 
+0000017998 00000 n 
+0000018420 00000 n 
+0000018612 00000 n 
+0000018814 00000 n 
+0000019011 00000 n 
+0000019203 00000 n 
+0000019398 00000 n 
+0000019591 00000 n 
+0000019783 00000 n 
+0000019992 00000 n 
+0000020201 00000 n 
+0000020393 00000 n 
+0000020500 00000 n 
+0000020791 00000 n 
+0000020863 00000 n 
+0000021174 00000 n 
+0000021276 00000 n 
+0000024554 00000 n 
+0000026734 00000 n 
+0000029103 00000 n 
+0000032455 00000 n 
+0000035635 00000 n 
+0000038480 00000 n 
+trailer
+<<
+/ID 
+[<f90c065206b6889f58fc03e90e81f0c6><f90c065206b6889f58fc03e90e81f0c6>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 103 0 R
+/Root 102 0 R
+/Size 112
+>>
+startxref
+41222
+%%EOF

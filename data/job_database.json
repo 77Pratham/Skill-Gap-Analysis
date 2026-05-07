@@ -1,0 +1,154 @@
+{
+  "jobs": [
+    {
+      "title": "Data Scientist",
+      "variants": ["Data Scientist", "Sr. Data Scientist", "Senior Data Scientist", "Principal Data Scientist", "Lead Data Scientist"],
+      "company": "Flipkart",
+      "location": "Bengaluru",
+      "experience_years": 3,
+      "description": "We are looking for a Data Scientist to join our Growth Analytics team. You will build predictive models to drive business impact, work with large-scale datasets, and collaborate closely with product and engineering teams.",
+      "required_skills": ["Python", "Machine Learning", "Statistical Analysis", "SQL", "Pandas", "NumPy", "Scikit-learn", "Feature Engineering", "A/B Testing", "Data-Driven Decision Making", "Jupyter Notebook", "Git"],
+      "nice_to_have_skills": ["Deep Learning", "TensorFlow", "PyTorch", "Apache Spark", "MLflow", "XGBoost", "LightGBM", "Communication", "Presentation Skills"]
+    },
+    {
+      "title": "Data Scientist",
+      "variants": ["Data Scientist", "Applied Scientist"],
+      "company": "Amazon",
+      "location": "Hyderabad",
+      "experience_years": 4,
+      "description": "Amazon's Supply Chain Science team is looking for a Data Scientist to develop forecasting and optimization models that directly impact millions of customers. You'll work with petabyte-scale data and cutting-edge ML techniques.",
+      "required_skills": ["Machine Learning", "Python", "Statistical Analysis", "SQL", "Feature Engineering", "Time Series", "Apache Spark", "Data Structures", "A/B Testing", "Problem Solving"],
+      "nice_to_have_skills": ["Deep Learning", "TensorFlow", "Reinforcement Learning", "Scala", "Recommendation Systems", "XGBoost", "System Design"]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "variants": ["ML Engineer", "Machine Learning Engineer", "Senior ML Engineer", "Applied ML Engineer"],
+      "company": "Google",
+      "location": "Bengaluru",
+      "experience_years": 4,
+      "description": "Join Google's Core ML team to build and deploy production ML systems that serve billions of users. You'll work on the full ML lifecycle from research to deployment.",
+      "required_skills": ["Machine Learning", "Python", "TensorFlow", "Deep Learning", "Model Deployment", "Docker", "Kubernetes", "MLOps", "System Design", "Data Structures", "Git", "REST API"],
+      "nice_to_have_skills": ["PyTorch", "Kubernetes", "MLflow", "Go", "Scala", "Distributed Systems", "Feature Engineering", "CI/CD"]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "variants": ["ML Engineer", "MLE", "ML Platform Engineer"],
+      "company": "Swiggy",
+      "location": "Bengaluru",
+      "experience_years": 2,
+      "description": "Build ML infrastructure and real-time recommendation systems for India's leading food delivery platform. Work on personalization, ETA prediction, and fraud detection at scale.",
+      "required_skills": ["Python", "Machine Learning", "Scikit-learn", "Apache Kafka", "Docker", "REST API", "SQL", "Redis", "Feature Engineering", "Model Deployment"],
+      "nice_to_have_skills": ["Deep Learning", "Apache Spark", "Kubernetes", "XGBoost", "LightGBM", "Real-time ML", "MLflow", "Recommendation Systems"]
+    },
+    {
+      "title": "NLP Engineer",
+      "variants": ["NLP Engineer", "NLP Scientist", "Computational Linguist", "NLP Researcher"],
+      "company": "Microsoft",
+      "location": "Hyderabad",
+      "experience_years": 3,
+      "description": "Work on state-of-the-art NLP systems for Azure Cognitive Services. You'll fine-tune large language models, build NER pipelines, and develop conversational AI solutions.",
+      "required_skills": ["Natural Language Processing", "Python", "BERT", "Hugging Face", "Deep Learning", "PyTorch", "Machine Learning", "spaCy", "Statistical Analysis", "Git"],
+      "nice_to_have_skills": ["LLM", "Fine-tuning LLMs", "TensorFlow", "RAG", "Prompt Engineering", "LangChain", "Generative AI", "Data Structures"]
+    },
+    {
+      "title": "Data Engineer",
+      "variants": ["Data Engineer", "Senior Data Engineer", "Big Data Engineer", "Sr. Data Engineer"],
+      "company": "PhonePe",
+      "location": "Bengaluru",
+      "experience_years": 3,
+      "description": "Build and maintain scalable data pipelines for India's leading fintech. You'll work with real-time and batch processing systems processing billions of transactions daily.",
+      "required_skills": ["Apache Spark", "Python", "Apache Kafka", "SQL", "Apache Airflow", "ETL", "Data Warehousing", "PostgreSQL", "Docker", "Git", "Linux"],
+      "nice_to_have_skills": ["Scala", "Kubernetes", "dbt", "Databricks", "AWS", "Google Cloud", "Great Expectations", "Flink"]
+    },
+    {
+      "title": "Data Engineer",
+      "variants": ["Data Engineer", "Analytics Engineer"],
+      "company": "Razorpay",
+      "location": "Bengaluru",
+      "experience_years": 2,
+      "description": "Design, build, and optimize data pipelines and analytics infrastructure to power business intelligence across Razorpay's payment ecosystem.",
+      "required_skills": ["Python", "SQL", "ETL", "Apache Airflow", "dbt", "Data Warehousing", "BigQuery", "Snowflake", "Git", "Problem Solving"],
+      "nice_to_have_skills": ["Apache Spark", "Apache Kafka", "AWS", "Docker", "Great Expectations", "Communication", "Data-Driven Decision Making"]
+    },
+    {
+      "title": "GenAI Engineer",
+      "variants": ["Generative AI Engineer", "GenAI Engineer", "LLM Engineer", "AI Engineer"],
+      "company": "Infosys",
+      "location": "Bengaluru",
+      "experience_years": 2,
+      "description": "Build enterprise GenAI solutions leveraging LLMs, RAG architectures, and AI agents. You'll work on chatbots, document intelligence, and automated workflows.",
+      "required_skills": ["Python", "LLM", "RAG", "LangChain", "Prompt Engineering", "Vector Database", "REST API", "Docker", "Git", "Generative AI"],
+      "nice_to_have_skills": ["Fine-tuning LLMs", "LangGraph", "CrewAI", "FastAPI", "Vector Embeddings", "Hugging Face", "BERT", "AWS", "Azure"]
+    },
+    {
+      "title": "GenAI Engineer",
+      "variants": ["Generative AI Engineer", "LLM Engineer", "AI Product Engineer"],
+      "company": "Accenture",
+      "location": "Mumbai",
+      "experience_years": 3,
+      "description": "Lead development of GenAI-powered products and solutions for global clients across banking, retail, and healthcare verticals.",
+      "required_skills": ["Python", "LLM", "RAG", "Prompt Engineering", "LangChain", "Generative AI", "REST API", "Docker", "System Design", "Communication", "Project Management"],
+      "nice_to_have_skills": ["Fine-tuning LLMs", "Azure", "AWS", "Vector Database", "FastAPI", "LangGraph", "Agile", "Leadership"]
+    },
+    {
+      "title": "MLOps Engineer",
+      "variants": ["MLOps Engineer", "ML Platform Engineer", "AI Infrastructure Engineer"],
+      "company": "Walmart Labs",
+      "location": "Bengaluru",
+      "experience_years": 3,
+      "description": "Build and scale ML infrastructure and MLOps pipelines to productionize hundreds of models powering Walmart's retail operations.",
+      "required_skills": ["MLOps", "Docker", "Kubernetes", "CI/CD", "Python", "MLflow", "Apache Airflow", "AWS", "Model Deployment", "Linux", "Git", "Machine Learning"],
+      "nice_to_have_skills": ["Terraform", "Prometheus", "Grafana", "Apache Kafka", "Databricks", "Site Reliability Engineering", "Go", "Ansible"]
+    },
+    {
+      "title": "Backend Engineer",
+      "variants": ["Backend Developer", "Backend Engineer", "Software Engineer Backend", "Senior Backend Engineer"],
+      "company": "CRED",
+      "location": "Bengaluru",
+      "experience_years": 3,
+      "description": "Build high-performance backend systems for CRED's financial products serving millions of users. Work on microservices, APIs, and real-time data systems.",
+      "required_skills": ["Python", "REST API", "Microservices", "PostgreSQL", "Redis", "Docker", "System Design", "Data Structures", "Git", "Linux", "SQL"],
+      "nice_to_have_skills": ["FastAPI", "Django", "Kubernetes", "Apache Kafka", "Elasticsearch", "Go", "CI/CD", "Design Patterns", "Unit Testing"]
+    },
+    {
+      "title": "Full Stack Developer",
+      "variants": ["Full Stack Engineer", "Full Stack Developer", "Senior Full Stack Engineer"],
+      "company": "Zepto",
+      "location": "Mumbai",
+      "experience_years": 2,
+      "description": "Build end-to-end features for Zepto's 10-minute delivery platform. You'll work on consumer-facing web and mobile features, and internal ops dashboards.",
+      "required_skills": ["React", "Node.js", "TypeScript", "PostgreSQL", "REST API", "HTML", "CSS", "Git", "Docker", "SQL"],
+      "nice_to_have_skills": ["Next.js", "Redis", "MongoDB", "AWS", "System Design", "Redux", "GraphQL", "Unit Testing", "Agile"]
+    },
+    {
+      "title": "Data Analyst",
+      "variants": ["Data Analyst", "Business Analyst", "Product Analyst", "Analytics Engineer"],
+      "company": "Ola",
+      "location": "Bengaluru",
+      "experience_years": 2,
+      "description": "Drive data-informed decisions across Ola's ride-sharing and EV businesses. Build dashboards, run analyses, and present insights to leadership.",
+      "required_skills": ["SQL", "Python", "Statistical Analysis", "A/B Testing", "Data-Driven Decision Making", "Pandas", "Presentation Skills", "Communication", "Excel"],
+      "nice_to_have_skills": ["Machine Learning", "Tableau", "Power BI", "Matplotlib", "Seaborn", "BigQuery", "Apache Airflow", "Plotly"]
+    },
+    {
+      "title": "Research Scientist",
+      "variants": ["Research Scientist", "ML Research Scientist", "AI Researcher", "Applied Research Scientist"],
+      "company": "Samsung R&D",
+      "location": "Bengaluru",
+      "experience_years": 4,
+      "description": "Conduct cutting-edge research in deep learning, computer vision, and on-device AI for Samsung's next-generation products.",
+      "required_skills": ["Deep Learning", "Computer Vision", "PyTorch", "TensorFlow", "Machine Learning", "Statistical Analysis", "Python", "Research", "Data Structures", "BERT"],
+      "nice_to_have_skills": ["OpenCV", "MATLAB", "Reinforcement Learning", "Generative AI", "Stable Diffusion", "Hugging Face", "Publication", "C++"]
+    },
+    {
+      "title": "DevOps Engineer",
+      "variants": ["DevOps Engineer", "Senior DevOps", "Cloud Engineer", "Platform Engineer"],
+      "company": "Paytm",
+      "location": "Noida",
+      "experience_years": 3,
+      "description": "Manage and evolve Paytm's cloud infrastructure serving 350M+ users. Build automation, improve reliability, and enable rapid engineering delivery.",
+      "required_skills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Terraform", "Ansible", "Python", "Shell Scripting", "Git", "Prometheus"],
+      "nice_to_have_skills": ["Site Reliability Engineering", "Grafana", "GitHub Actions", "Jenkins", "Nginx", "Google Cloud", "Go", "System Design"]
+    }
+  ]
+}

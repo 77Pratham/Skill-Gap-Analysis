@@ -1,0 +1,172 @@
+{
+  "courses": {
+    "Machine Learning": [
+      {"title": "Machine Learning Specialization", "platform": "Coursera", "url": "https://coursera.org/specializations/machine-learning-introduction", "duration": "3 months", "level": "Beginner", "is_free": false, "rating": 4.9},
+      {"title": "Hands-On Machine Learning with Scikit-Learn", "platform": "O'Reilly", "url": "https://oreilly.com/library/view/hands-on-machine-learning", "duration": "Self-paced", "level": "Intermediate", "is_free": false, "rating": 4.8},
+      {"title": "Machine Learning Crash Course", "platform": "Google", "url": "https://developers.google.com/machine-learning/crash-course", "duration": "15 hours", "level": "Beginner", "is_free": true, "rating": 4.7}
+    ],
+    "Deep Learning": [
+      {"title": "Deep Learning Specialization", "platform": "Coursera", "url": "https://coursera.org/specializations/deep-learning", "duration": "5 months", "level": "Intermediate", "is_free": false, "rating": 4.9},
+      {"title": "fast.ai Practical Deep Learning", "platform": "fast.ai", "url": "https://course.fast.ai", "duration": "8 weeks", "level": "Intermediate", "is_free": true, "rating": 4.8},
+      {"title": "MIT 6.S191 Introduction to Deep Learning", "platform": "YouTube", "url": "https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI", "duration": "3 weeks", "level": "Intermediate", "is_free": true, "rating": 4.7}
+    ],
+    "Natural Language Processing": [
+      {"title": "NLP Specialization", "platform": "Coursera", "url": "https://coursera.org/specializations/natural-language-processing", "duration": "4 months", "level": "Intermediate", "is_free": false, "rating": 4.8},
+      {"title": "Hugging Face NLP Course", "platform": "Hugging Face", "url": "https://huggingface.co/course/chapter1", "duration": "6 weeks", "level": "Intermediate", "is_free": true, "rating": 4.9},
+      {"title": "Stanford CS224N: NLP with Deep Learning", "platform": "YouTube", "url": "https://youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ", "duration": "10 weeks", "level": "Advanced", "is_free": true, "rating": 4.8}
+    ],
+    "Python": [
+      {"title": "Python for Everybody Specialization", "platform": "Coursera", "url": "https://coursera.org/specializations/python", "duration": "8 months", "level": "Beginner", "is_free": false, "rating": 4.8},
+      {"title": "CS50P: Python", "platform": "Harvard/edX", "url": "https://cs50.harvard.edu/python/2022/", "duration": "10 weeks", "level": "Beginner", "is_free": true, "rating": 4.9},
+      {"title": "Python Crash Course", "platform": "Udemy", "url": "https://udemy.com/course/complete-python-bootcamp", "duration": "22 hours", "level": "Beginner", "is_free": false, "rating": 4.7}
+    ],
+    "TensorFlow": [
+      {"title": "TensorFlow Developer Certificate", "platform": "Coursera", "url": "https://coursera.org/professional-certificates/tensorflow-in-practice", "duration": "4 months", "level": "Intermediate", "is_free": false, "rating": 4.7},
+      {"title": "TensorFlow Official Tutorials", "platform": "TensorFlow.org", "url": "https://www.tensorflow.org/tutorials", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.6}
+    ],
+    "PyTorch": [
+      {"title": "PyTorch for Deep Learning Bootcamp", "platform": "Udemy", "url": "https://udemy.com/course/pytorch-for-deep-learning-in-python-bootcamp", "duration": "17 hours", "level": "Intermediate", "is_free": false, "rating": 4.7},
+      {"title": "Official PyTorch Tutorials", "platform": "PyTorch.org", "url": "https://pytorch.org/tutorials/", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.8}
+    ],
+    "Apache Spark": [
+      {"title": "Apache Spark and Python for Big Data", "platform": "Udemy", "url": "https://udemy.com/course/spark-and-python-for-big-data-with-pyspark", "duration": "12 hours", "level": "Intermediate", "is_free": false, "rating": 4.6},
+      {"title": "Databricks Academy Lakehouse Fundamentals", "platform": "Databricks", "url": "https://customer-academy.databricks.com/learn/course/1308", "duration": "5 hours", "level": "Beginner", "is_free": true, "rating": 4.5}
+    ],
+    "Apache Kafka": [
+      {"title": "Apache Kafka Series — Beginner to Intermediate", "platform": "Udemy", "url": "https://udemy.com/course/apache-kafka", "duration": "8 hours", "level": "Beginner", "is_free": false, "rating": 4.7},
+      {"title": "Kafka Official Documentation", "platform": "Apache.org", "url": "https://kafka.apache.org/documentation/", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.5}
+    ],
+    "Apache Airflow": [
+      {"title": "The Complete Hands-On Introduction to Apache Airflow", "platform": "Udemy", "url": "https://udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow", "duration": "8 hours", "level": "Intermediate", "is_free": false, "rating": 4.6},
+      {"title": "Airflow Official Tutorial", "platform": "Apache.org", "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial.html", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.4}
+    ],
+    "Docker": [
+      {"title": "Docker & Kubernetes: The Practical Guide", "platform": "Udemy", "url": "https://udemy.com/course/docker-kubernetes-the-practical-guide", "duration": "23 hours", "level": "Beginner", "is_free": false, "rating": 4.7},
+      {"title": "Docker Official Getting Started", "platform": "Docker.com", "url": "https://docs.docker.com/get-started/", "duration": "5 hours", "level": "Beginner", "is_free": true, "rating": 4.6}
+    ],
+    "Kubernetes": [
+      {"title": "Kubernetes for the Absolute Beginners", "platform": "Udemy", "url": "https://udemy.com/course/learn-kubernetes", "duration": "6 hours", "level": "Beginner", "is_free": false, "rating": 4.7},
+      {"title": "Kubernetes Official Documentation", "platform": "kubernetes.io", "url": "https://kubernetes.io/docs/tutorials/", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.5}
+    ],
+    "AWS": [
+      {"title": "AWS Certified Solutions Architect", "platform": "Udemy", "url": "https://udemy.com/course/aws-certified-solutions-architect-associate-saa-c03", "duration": "27 hours", "level": "Intermediate", "is_free": false, "rating": 4.7},
+      {"title": "AWS Cloud Practitioner Essentials", "platform": "AWS", "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials", "duration": "6 hours", "level": "Beginner", "is_free": true, "rating": 4.5}
+    ],
+    "SQL": [
+      {"title": "The Complete SQL Bootcamp 2024", "platform": "Udemy", "url": "https://udemy.com/course/the-complete-sql-bootcamp", "duration": "9 hours", "level": "Beginner", "is_free": false, "rating": 4.7},
+      {"title": "SQL Tutorial — W3Schools", "platform": "W3Schools", "url": "https://w3schools.com/sql/", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.3},
+      {"title": "Mode Analytics SQL Tutorial", "platform": "Mode", "url": "https://mode.com/sql-tutorial/", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.5}
+    ],
+    "Statistical Analysis": [
+      {"title": "Statistics with Python Specialization", "platform": "Coursera", "url": "https://coursera.org/specializations/statistics-with-python", "duration": "5 months", "level": "Intermediate", "is_free": false, "rating": 4.6},
+      {"title": "Khan Academy Statistics", "platform": "Khan Academy", "url": "https://khanacademy.org/math/statistics-probability", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.7}
+    ],
+    "LLM": [
+      {"title": "LLM Bootcamp — Full Stack Deep Learning", "platform": "FSDL", "url": "https://fullstackdeeplearning.com/llm-bootcamp/", "duration": "6 hours", "level": "Intermediate", "is_free": true, "rating": 4.9},
+      {"title": "Building Systems with the ChatGPT API", "platform": "DeepLearning.AI", "url": "https://deeplearning.ai/short-courses/building-systems-with-chatgpt/", "duration": "4 hours", "level": "Beginner", "is_free": true, "rating": 4.8}
+    ],
+    "RAG": [
+      {"title": "Building and Evaluating Advanced RAG", "platform": "DeepLearning.AI", "url": "https://deeplearning.ai/short-courses/building-evaluating-advanced-rag/", "duration": "3 hours", "level": "Intermediate", "is_free": true, "rating": 4.8},
+      {"title": "LangChain RAG in-depth", "platform": "YouTube", "url": "https://youtube.com/watch?v=T-D1OfcDW1M", "duration": "3 hours", "level": "Intermediate", "is_free": true, "rating": 4.6}
+    ],
+    "LangChain": [
+      {"title": "LangChain for LLM Application Development", "platform": "DeepLearning.AI", "url": "https://deeplearning.ai/short-courses/langchain-for-llm-application-development/", "duration": "4 hours", "level": "Intermediate", "is_free": true, "rating": 4.8},
+      {"title": "LangChain Crash Course", "platform": "YouTube", "url": "https://youtube.com/watch?v=nAmC7SoVLd8", "duration": "2 hours", "level": "Beginner", "is_free": true, "rating": 4.6}
+    ],
+    "Prompt Engineering": [
+      {"title": "ChatGPT Prompt Engineering for Developers", "platform": "DeepLearning.AI", "url": "https://deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/", "duration": "3 hours", "level": "Beginner", "is_free": true, "rating": 4.9},
+      {"title": "Learn Prompting", "platform": "learnprompting.org", "url": "https://learnprompting.org/docs/intro", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.5}
+    ],
+    "Fine-tuning LLMs": [
+      {"title": "Finetuning Large Language Models", "platform": "DeepLearning.AI", "url": "https://deeplearning.ai/short-courses/finetuning-large-language-models/", "duration": "3 hours", "level": "Intermediate", "is_free": true, "rating": 4.8},
+      {"title": "QLoRA Fine-tuning Guide", "platform": "Hugging Face", "url": "https://huggingface.co/blog/4bit-transformers-bitsandbytes", "duration": "Self-paced", "level": "Advanced", "is_free": true, "rating": 4.7}
+    ],
+    "MLOps": [
+      {"title": "Machine Learning Engineering for Production (MLOps)", "platform": "Coursera", "url": "https://coursera.org/specializations/machine-learning-engineering-for-production-mlops", "duration": "4 months", "level": "Advanced", "is_free": false, "rating": 4.7},
+      {"title": "MLOps Zoomcamp", "platform": "DataTalks.Club", "url": "https://github.com/DataTalksClub/mlops-zoomcamp", "duration": "9 weeks", "level": "Intermediate", "is_free": true, "rating": 4.8}
+    ],
+    "Scikit-learn": [
+      {"title": "Scikit-learn Official User Guide", "platform": "scikit-learn.org", "url": "https://scikit-learn.org/stable/user_guide.html", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.6}
+    ],
+    "Pandas": [
+      {"title": "Pandas in 1 Hour", "platform": "YouTube", "url": "https://youtube.com/watch?v=vmEHCJofslg", "duration": "1 hour", "level": "Beginner", "is_free": true, "rating": 4.6},
+      {"title": "Effective Pandas", "platform": "Udemy", "url": "https://udemy.com/course/pandas-data-analysis-with-python", "duration": "8 hours", "level": "Intermediate", "is_free": false, "rating": 4.5}
+    ],
+    "React": [
+      {"title": "React — The Complete Guide 2024", "platform": "Udemy", "url": "https://udemy.com/course/react-the-complete-guide-incl-redux", "duration": "68 hours", "level": "Beginner", "is_free": false, "rating": 4.7},
+      {"title": "Official React Documentation", "platform": "react.dev", "url": "https://react.dev/learn", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.9}
+    ],
+    "System Design": [
+      {"title": "Grokking System Design Interview", "platform": "Educative", "url": "https://educative.io/courses/grokking-modern-system-design-interview", "duration": "20 hours", "level": "Intermediate", "is_free": false, "rating": 4.7},
+      {"title": "System Design Primer", "platform": "GitHub", "url": "https://github.com/donnemartin/system-design-primer", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.9}
+    ],
+    "Data Structures": [
+      {"title": "Algorithms Specialization", "platform": "Coursera", "url": "https://coursera.org/specializations/algorithms", "duration": "4 months", "level": "Intermediate", "is_free": false, "rating": 4.8},
+      {"title": "LeetCode Study Plans", "platform": "LeetCode", "url": "https://leetcode.com/studyplan/", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.7}
+    ],
+    "dbt": [
+      {"title": "dbt Fundamentals", "platform": "dbt Learn", "url": "https://courses.getdbt.com/collections", "duration": "5 hours", "level": "Beginner", "is_free": true, "rating": 4.8}
+    ],
+    "Feature Engineering": [
+      {"title": "Feature Engineering for Machine Learning", "platform": "Udemy", "url": "https://udemy.com/course/feature-engineering-for-machine-learning", "duration": "8 hours", "level": "Intermediate", "is_free": false, "rating": 4.6}
+    ],
+    "A/B Testing": [
+      {"title": "A/B Testing by Google", "platform": "Udacity", "url": "https://udacity.com/course/ab-testing--ud257", "duration": "8 weeks", "level": "Intermediate", "is_free": true, "rating": 4.5}
+    ],
+    "Time Series": [
+      {"title": "Time Series with Python", "platform": "Udemy", "url": "https://udemy.com/course/python-for-time-series-data-analysis", "duration": "14 hours", "level": "Intermediate", "is_free": false, "rating": 4.5}
+    ],
+    "MLflow": [
+      {"title": "MLflow Official Documentation", "platform": "MLflow.org", "url": "https://mlflow.org/docs/latest/index.html", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.5}
+    ],
+    "CI/CD": [
+      {"title": "DevOps Beginners to Advanced with Projects", "platform": "Udemy", "url": "https://udemy.com/course/devsecops", "duration": "27 hours", "level": "Beginner", "is_free": false, "rating": 4.6},
+      {"title": "GitHub Actions Documentation", "platform": "GitHub", "url": "https://docs.github.com/en/actions", "duration": "Self-paced", "level": "Beginner", "is_free": true, "rating": 4.5}
+    ],
+    "Terraform": [
+      {"title": "Terraform for the Absolute Beginners", "platform": "Udemy", "url": "https://udemy.com/course/terraform-for-the-absolute-beginners", "duration": "5 hours", "level": "Beginner", "is_free": false, "rating": 4.7}
+    ],
+    "Hugging Face": [
+      {"title": "Hugging Face NLP Course", "platform": "Hugging Face", "url": "https://huggingface.co/course/chapter1", "duration": "6 weeks", "level": "Intermediate", "is_free": true, "rating": 4.9}
+    ],
+    "BERT": [
+      {"title": "BERT Research Paper Explained", "platform": "YouTube", "url": "https://youtube.com/watch?v=xI0HHN5XKDo", "duration": "1 hour", "level": "Advanced", "is_free": true, "rating": 4.7}
+    ],
+    "Computer Vision": [
+      {"title": "CS231n: Convolutional Neural Networks", "platform": "Stanford", "url": "https://cs231n.github.io/", "duration": "10 weeks", "level": "Advanced", "is_free": true, "rating": 4.9}
+    ],
+    "XGBoost": [
+      {"title": "XGBoost Official Documentation", "platform": "XGBoost.readthedocs", "url": "https://xgboost.readthedocs.io/en/stable/tutorials/model.html", "duration": "Self-paced", "level": "Intermediate", "is_free": true, "rating": 4.5}
+    ],
+    "Vector Database": [
+      {"title": "Vector Databases from the Ground Up", "platform": "DeepLearning.AI", "url": "https://deeplearning.ai/short-courses/building-applications-vector-databases/", "duration": "3 hours", "level": "Beginner", "is_free": true, "rating": 4.7}
+    ],
+    "ETL": [
+      {"title": "Data Engineering with Python", "platform": "Coursera", "url": "https://coursera.org/learn/data-engineering-with-python", "duration": "4 weeks", "level": "Intermediate", "is_free": false, "rating": 4.5}
+    ],
+    "Data Warehousing": [
+      {"title": "Data Warehouse Fundamentals", "platform": "Udemy", "url": "https://udemy.com/course/data-warehouse-the-ultimate-guide", "duration": "9 hours", "level": "Beginner", "is_free": false, "rating": 4.5}
+    ],
+    "PostgreSQL": [
+      {"title": "Learn PostgreSQL Tutorial", "platform": "YouTube", "url": "https://youtube.com/watch?v=qw--VYLpxG4", "duration": "4 hours", "level": "Beginner", "is_free": true, "rating": 4.6}
+    ],
+    "Git": [
+      {"title": "Git & GitHub Crash Course", "platform": "YouTube", "url": "https://youtube.com/watch?v=RGOj5yH7evk", "duration": "1 hour", "level": "Beginner", "is_free": true, "rating": 4.7}
+    ],
+    "Linux": [
+      {"title": "Linux Command Line Basics", "platform": "Udacity", "url": "https://udacity.com/course/linux-command-line-basics--ud595", "duration": "5 hours", "level": "Beginner", "is_free": true, "rating": 4.5}
+    ],
+    "Generative AI": [
+      {"title": "Generative AI for Everyone", "platform": "Coursera", "url": "https://coursera.org/learn/generative-ai-for-everyone", "duration": "3 weeks", "level": "Beginner", "is_free": false, "rating": 4.8}
+    ]
+  },
+  "default_course": {
+    "title": "{skill} — Search on Coursera",
+    "platform": "Coursera",
+    "url": "https://coursera.org/search?query={skill}",
+    "duration": "Varies",
+    "level": "Beginner",
+    "is_free": false,
+    "rating": 4.0
+  }
+}

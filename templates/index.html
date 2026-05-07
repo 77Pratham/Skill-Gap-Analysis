@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AI Skill Gap Analyser</title>
+<style>
+/* ═══════════════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════════════ */
+:root {
+  --bg:       #0B0F1A;
+  --bg2:      #111827;
+  --bg3:      #1A2236;
+  --border:   #1E2D45;
+  --border2:  #2D3F5A;
+  --accent:   #6366F1;
+  --accent2:  #818CF8;
+  --success:  #10B981;
+  --warning:  #F59E0B;
+  --danger:   #EF4444;
+  --minor:    #6B7280;
+  --text:     #F1F5F9;
+  --text2:    #94A3B8;
+  --text3:    #64748B;
+  --card:     #131C2E;
+  --card2:    #192235;
+  --radius:   12px;
+  --radius2:  8px;
+  --shadow:   0 4px 24px rgba(0,0,0,.4);
+  --glow:     0 0 30px rgba(99,102,241,.15);
+}
+
+/* ═══════════════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ═══════════════════════════════════════════════
+   ANIMATED BACKGROUND
+═══════════════════════════════════════════════ */
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%, rgba(99,102,241,.12) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(16,185,129,.07) 0%, transparent 60%);
+  pointer-events: none; z-index: 0;
+}
+
+/* ═══════════════════════════════════════════════
+   HEADER / NAV
+═══════════════════════════════════════════════ */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(11,15,26,.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex; align-items: center; gap: 12px;
+  height: 58px;
+}
+.logo-badge {
+  display: flex; align-items: center; gap: 10px;
+}
+.logo-icon {
+  width: 32px; height: 32px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent), #8B5CF6);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+}
+.logo-text { font-weight: 700; font-size: 15px; letter-spacing: -.3px; }
+.logo-text span { color: var(--accent2); }
+header nav { margin-left: auto; display: flex; gap: 6px; }
+.nav-pill {
+  padding: 5px 14px; border-radius: 20px; font-size: 12px;
+  font-weight: 500; color: var(--text2); cursor: pointer;
+  border: 1px solid transparent; transition: all .2s;
+}
+.nav-pill:hover { border-color: var(--border2); color: var(--text); }
+.nav-pill.active { background: rgba(99,102,241,.15); border-color: var(--accent); color: var(--accent2); }
+
+/* ═══════════════════════════════════════════════
+   LAYOUT
+═══════════════════════════════════════════════ */
+.page { position: relative; z-index: 1; max-width: 1140px; margin: 0 auto; padding: 0 20px 60px; }
+
+/* ═══════════════════════════════════════════════
+   HERO
+═══════════════════════════════════════════════ */
+.hero {
+  text-align: center; padding: 60px 0 40px;
+}
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(99,102,241,.12); border: 1px solid rgba(99,102,241,.3);
+  color: var(--accent2); padding: 4px 12px; border-radius: 20px;
+  font-size: 12px; font-weight: 600; letter-spacing: .5px;
+  margin-bottom: 18px;
+}
+.hero-badge::before { content: '●'; font-size: 8px; color: var(--success); animation: blink 2s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+.hero h1 {
+  font-size: clamp(28px, 5vw, 46px); font-weight: 800;
+  letter-spacing: -1.5px; line-height: 1.1;
+  background: linear-gradient(135deg, #F1F5F9 30%, var(--accent2) 70%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 14px;
+}
+.hero p {
+  color: var(--text2); font-size: 16px; max-width: 560px;
+  margin: 0 auto 30px;
+}
+.hero-stats {
+  display: flex; justify-content: center; gap: 28px;
+  flex-wrap: wrap;
+}
+.hero-stat { text-align: center; }
+.hero-stat .val { font-size: 22px; font-weight: 700; color: var(--accent2); }
+.hero-stat .lbl { font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: .5px; }
+
+/* ═══════════════════════════════════════════════
+   FORM CARD
+═══════════════════════════════════════════════ */
+.form-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 32px;
+  box-shadow: var(--shadow);
+}
+.form-card-header {
+  padding: 18px 24px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 10px;
+}
+.form-card-header h2 { font-size: 15px; font-weight: 700; }
+.step-badge {
+  width: 24px; height: 24px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #8B5CF6);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; flex-shrink: 0;
+}
+.form-body { padding: 20px 24px; }
+
+/* ═══════════════════════════════════════════════
+   GRID
+═══════════════════════════════════════════════ */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+@media(max-width:640px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+
+/* ═══════════════════════════════════════════════
+   FORM ELEMENTS
+═══════════════════════════════════════════════ */
+.field { display: flex; flex-direction: column; gap: 6px; }
+label {
+  font-size: 12px; font-weight: 600; color: var(--text2);
+  text-transform: uppercase; letter-spacing: .5px;
+}
+input[type=text], input[type=number], select, textarea {
+  background: var(--bg2); border: 1px solid var(--border2);
+  border-radius: var(--radius2); padding: 10px 13px;
+  color: var(--text); font-size: 13.5px; font-family: inherit;
+  transition: border-color .2s, box-shadow .2s;
+  outline: none; width: 100%;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(99,102,241,.15);
+}
+select { cursor: pointer; }
+select option { background: var(--bg2); }
+textarea { resize: vertical; min-height: 160px; line-height: 1.5; }
+
+/* Resume tabs */
+.resume-tabs { display: flex; gap: 4px; margin-bottom: 12px; }
+.tab-btn {
+  padding: 7px 16px; border-radius: 6px; font-size: 12px;
+  font-weight: 600; cursor: pointer; border: 1px solid var(--border2);
+  background: transparent; color: var(--text2); transition: all .2s;
+}
+.tab-btn.active {
+  background: rgba(99,102,241,.18); border-color: var(--accent);
+  color: var(--accent2);
+}
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* File drop zone */
+.drop-zone {
+  border: 2px dashed var(--border2); border-radius: var(--radius2);
+  padding: 30px; text-align: center; cursor: pointer;
+  transition: all .2s; position: relative;
+}
+.drop-zone:hover, .drop-zone.drag-over {
+  border-color: var(--accent); background: rgba(99,102,241,.05);
+}
+.drop-zone input[type=file] {
+  position: absolute; inset: 0; opacity: 0; cursor: pointer;
+}
+.drop-icon { font-size: 28px; margin-bottom: 8px; }
+.drop-text { font-size: 13px; color: var(--text2); }
+.drop-text strong { color: var(--accent2); }
+.drop-hint { font-size: 11px; color: var(--text3); margin-top: 4px; }
+.file-selected {
+  display: none; align-items: center; gap: 8px;
+  background: rgba(16,185,129,.1); border: 1px solid rgba(16,185,129,.3);
+  border-radius: var(--radius2); padding: 8px 12px; margin-top: 8px;
+  font-size: 12px; color: var(--success);
+}
+
+/* Learning mode radio */
+.mode-cards { display: flex; gap: 10px; }
+.mode-card {
+  flex: 1; padding: 10px 12px; border-radius: var(--radius2);
+  border: 1px solid var(--border2); cursor: pointer;
+  transition: all .2s; text-align: center; position: relative;
+}
+.mode-card input { position: absolute; opacity: 0; }
+.mode-card:has(input:checked) {
+  border-color: var(--accent); background: rgba(99,102,241,.1);
+}
+.mode-card .mode-icon { font-size: 18px; margin-bottom: 3px; }
+.mode-card .mode-label { font-size: 12px; font-weight: 600; }
+.mode-card .mode-sub { font-size: 10px; color: var(--text3); }
+
+/* Role suggestions */
+.role-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.role-chip {
+  padding: 4px 11px; border-radius: 20px; font-size: 11.5px;
+  border: 1px solid var(--border2); color: var(--text2); cursor: pointer;
+  transition: all .2s; background: transparent;
+}
+.role-chip:hover { border-color: var(--accent); color: var(--accent2); }
+
+/* Sample resume btn */
+.sample-btn {
+  background: transparent; border: 1px solid var(--border2);
+  color: var(--text2); padding: 6px 13px; border-radius: var(--radius2);
+  font-size: 11px; cursor: pointer; transition: all .2s;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.sample-btn:hover { border-color: var(--accent2); color: var(--accent2); }
+
+/* ═══════════════════════════════════════════════
+   SUBMIT BUTTON
+═══════════════════════════════════════════════ */
+.analyse-btn {
+  width: 100%; padding: 14px;
+  background: linear-gradient(135deg, var(--accent) 0%, #8B5CF6 100%);
+  border: none; border-radius: var(--radius2);
+  color: white; font-size: 15px; font-weight: 700;
+  cursor: pointer; transition: all .2s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  letter-spacing: -.2px;
+}
+.analyse-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(99,102,241,.4); }
+.analyse-btn:disabled { opacity: .6; cursor: not-allowed; transform: none; }
+
+/* ═══════════════════════════════════════════════
+   LOADING STATE
+═══════════════════════════════════════════════ */
+#loading {
+  display: none; text-align: center; padding: 50px 20px;
+}
+.agent-pipeline {
+  display: flex; justify-content: center; gap: 0;
+  margin: 28px 0; flex-wrap: wrap;
+}
+.agent-step {
+  display: flex; align-items: center; flex-direction: column; gap: 6px;
+  position: relative;
+}
+.agent-bubble {
+  width: 56px; height: 56px; border-radius: 50%;
+  border: 2px solid var(--border2); background: var(--card);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; transition: all .4s;
+  position: relative; z-index: 1;
+}
+.agent-bubble.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 20px rgba(99,102,241,.5);
+  animation: agent-pulse 1s ease-in-out infinite;
+}
+.agent-bubble.done {
+  border-color: var(--success);
+  background: rgba(16,185,129,.1);
+}
+@keyframes agent-pulse { 0%,100%{box-shadow:0 0 0 0 rgba(99,102,241,.5)} 50%{box-shadow:0 0 0 8px rgba(99,102,241,0)} }
+.agent-connector {
+  width: 48px; height: 2px;
+  background: var(--border2); align-self: center;
+  margin-bottom: 22px; transition: background .4s;
+  position: relative; top: -3px;
+}
+.agent-connector.done { background: var(--success); }
+.agent-name { font-size: 10px; color: var(--text3); text-align: center; max-width: 68px; }
+.loading-text { color: var(--text2); font-size: 14px; margin-top: 12px; }
+.loading-log {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius2); padding: 12px 16px;
+  max-height: 120px; overflow-y: auto;
+  font-family: 'Courier New', monospace; font-size: 11px;
+  color: var(--text3); text-align: left; max-width: 600px;
+  margin: 16px auto 0; white-space: pre-wrap;
+}
+
+/* ═══════════════════════════════════════════════
+   RESULTS SECTION
+═══════════════════════════════════════════════ */
+#results { display: none; }
+.results-header {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px; margin-bottom: 24px;
+}
+.results-title { font-size: 20px; font-weight: 800; letter-spacing: -.5px; }
+.results-actions { display: flex; gap: 8px; }
+.action-btn {
+  padding: 8px 16px; border-radius: var(--radius2); font-size: 13px;
+  font-weight: 600; cursor: pointer; transition: all .2s;
+  display: flex; align-items: center; gap: 6px;
+  border: 1px solid var(--border2); background: transparent;
+  color: var(--text2);
+}
+.action-btn:hover { border-color: var(--accent2); color: var(--accent2); }
+.action-btn.primary {
+  background: linear-gradient(135deg, var(--accent), #8B5CF6);
+  border-color: transparent; color: white;
+}
+.action-btn.primary:hover { box-shadow: 0 4px 16px rgba(99,102,241,.4); }
+
+/* ═══════════════════════════════════════════════
+   METRIC CARDS
+═══════════════════════════════════════════════ */
+.metrics-row {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 12px; margin-bottom: 24px;
+}
+@media(max-width:768px){ .metrics-row{ grid-template-columns: repeat(3,1fr) } }
+@media(max-width:480px){ .metrics-row{ grid-template-columns: 1fr 1fr } }
+.metric-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius2); padding: 14px 16px;
+  text-align: center;
+}
+.metric-card .m-val {
+  font-size: 26px; font-weight: 800; line-height: 1;
+  margin-bottom: 4px;
+}
+.metric-card .m-lbl { font-size: 10.5px; color: var(--text3); text-transform: uppercase; letter-spacing: .4px; }
+
+/* ═══════════════════════════════════════════════
+   MATCH BAR
+═══════════════════════════════════════════════ */
+.match-banner {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius2); padding: 16px 20px; margin-bottom: 20px;
+}
+.match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.match-label { font-size: 13px; font-weight: 600; }
+.match-pct { font-size: 22px; font-weight: 800; }
+.match-track {
+  background: var(--bg2); border-radius: 4px; height: 10px; overflow: hidden;
+}
+.match-fill { height: 100%; border-radius: 4px; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+.match-summary { font-size: 12.5px; color: var(--text2); margin-top: 10px; line-height: 1.5; }
+
+/* ═══════════════════════════════════════════════
+   SECTION PANELS
+═══════════════════════════════════════════════ */
+.panel {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); margin-bottom: 20px; overflow: hidden;
+}
+.panel-header {
+  padding: 14px 20px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  cursor: pointer; user-select: none;
+}
+.panel-header h3 { font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.panel-toggle { font-size: 12px; color: var(--text3); transition: transform .3s; }
+.panel.collapsed .panel-toggle { transform: rotate(-90deg); }
+.panel-body { padding: 16px 20px; }
+.panel.collapsed .panel-body { display: none; }
+
+/* ═══════════════════════════════════════════════
+   SKILL CHIPS (MATCHED)
+═══════════════════════════════════════════════ */
+.skill-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.skill-chip {
+  padding: 4px 11px; border-radius: 20px; font-size: 12px; font-weight: 500;
+  border: 1px solid; display: inline-flex; align-items: center; gap: 4px;
+}
+.chip-matched { background: rgba(16,185,129,.1); border-color: rgba(16,185,129,.4); color: #34D399; }
+
+/* ═══════════════════════════════════════════════
+   GAPS TABLE
+═══════════════════════════════════════════════ */
+.gaps-table { width: 100%; border-collapse: collapse; }
+.gaps-table th {
+  text-align: left; padding: 8px 12px; font-size: 11px;
+  font-weight: 700; color: var(--text3);
+  text-transform: uppercase; letter-spacing: .5px;
+  border-bottom: 1px solid var(--border2);
+}
+.gaps-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 12.5px; }
+.gaps-table tr:hover td { background: rgba(255,255,255,.02); }
+.priority-badge {
+  padding: 2px 9px; border-radius: 20px; font-size: 10.5px;
+  font-weight: 700; letter-spacing: .3px;
+}
+.p-critical { background: rgba(239,68,68,.15); color: #FCA5A5; border: 1px solid rgba(239,68,68,.3); }
+.p-moderate { background: rgba(245,158,11,.12); color: #FCD34D; border: 1px solid rgba(245,158,11,.3); }
+.p-minor    { background: rgba(107,114,128,.15); color: #9CA3AF; border: 1px solid rgba(107,114,128,.3); }
+.cat-badge {
+  padding: 2px 8px; border-radius: 4px; font-size: 10px;
+  background: var(--bg3); color: var(--text3);
+}
+.gap-reason { font-size: 11.5px; color: var(--text2); line-height: 1.4; }
+.score-bar { background: var(--bg2); height: 4px; border-radius: 2px; margin-top: 4px; overflow: hidden; }
+.score-fill { height: 100%; border-radius: 2px; }
+
+/* Filter chips for gaps */
+.filter-row { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.filter-chip {
+  padding: 4px 12px; border-radius: 20px; font-size: 11.5px;
+  border: 1px solid var(--border2); background: transparent;
+  color: var(--text2); cursor: pointer; transition: all .2s;
+}
+.filter-chip.active { background: rgba(99,102,241,.15); border-color: var(--accent); color: var(--accent2); }
+
+/* ═══════════════════════════════════════════════
+   RECOMMENDATIONS
+═══════════════════════════════════════════════ */
+.course-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media(max-width:640px){ .course-grid{ grid-template-columns: 1fr } }
+.course-card {
+  background: var(--bg2); border: 1px solid var(--border2);
+  border-radius: var(--radius2); padding: 12px 14px;
+  transition: border-color .2s;
+}
+.course-card:hover { border-color: var(--accent); }
+.course-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+.course-skill { font-size: 10px; font-weight: 700; color: var(--accent2); text-transform: uppercase; letter-spacing: .4px; }
+.course-free { background: rgba(16,185,129,.15); color: #34D399; border: 1px solid rgba(16,185,129,.3); padding: 1px 7px; border-radius: 20px; font-size: 10px; font-weight: 700; }
+.course-paid { background: rgba(107,114,128,.1); color: var(--text3); border: 1px solid var(--border2); padding: 1px 7px; border-radius: 20px; font-size: 10px; }
+.course-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 6px; line-height: 1.3; }
+.course-title a { color: inherit; text-decoration: none; }
+.course-title a:hover { color: var(--accent2); }
+.course-footer { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.course-platform { font-size: 11px; color: var(--text3); }
+.course-duration { font-size: 11px; color: var(--text3); }
+.course-level { font-size: 10px; padding: 1px 7px; border-radius: 4px; background: var(--bg3); color: var(--text3); }
+.course-rating { margin-left: auto; font-size: 11px; color: var(--warning); }
+
+/* Skill group filter */
+.skill-group-filter { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+
+/* ═══════════════════════════════════════════════
+   AGENT LOGS
+═══════════════════════════════════════════════ */
+.log-terminal {
+  background: #0A0E1A; border: 1px solid var(--border);
+  border-radius: var(--radius2); padding: 14px 16px;
+  font-family: 'Courier New', monospace; font-size: 11px;
+  color: #4ADE80; max-height: 220px; overflow-y: auto;
+  line-height: 1.6;
+}
+.log-line { margin-bottom: 2px; }
+.log-line .agent-tag { color: #60A5FA; }
+.log-line .err-tag { color: #F87171; }
+
+/* ═══════════════════════════════════════════════
+   COMPANIES
+═══════════════════════════════════════════════ */
+.companies-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.company-chip {
+  padding: 6px 14px; border-radius: var(--radius2); font-size: 12.5px;
+  font-weight: 600; background: var(--bg3); border: 1px solid var(--border2);
+  color: var(--text2);
+}
+
+/* ═══════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════ */
+#toast {
+  position: fixed; bottom: 28px; right: 28px; z-index: 999;
+  background: var(--card2); border: 1px solid var(--border2);
+  padding: 12px 18px; border-radius: var(--radius2);
+  font-size: 13px; color: var(--text);
+  box-shadow: var(--shadow);
+  transform: translateY(80px); opacity: 0;
+  transition: all .35s; max-width: 320px;
+}
+#toast.show { transform: translateY(0); opacity: 1; }
+
+/* ═══════════════════════════════════════════════
+   ERROR STATE
+═══════════════════════════════════════════════ */
+.error-box {
+  background: rgba(239,68,68,.08); border: 1px solid rgba(239,68,68,.3);
+  border-radius: var(--radius2); padding: 14px 18px;
+  color: #FCA5A5; font-size: 13px; display: none;
+  align-items: center; gap: 8px; margin-bottom: 16px;
+}
+
+/* ═══════════════════════════════════════════════
+   SCROLLBAR
+═══════════════════════════════════════════════ */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════ -->
+<header>
+  <div class="logo-badge">
+    <div class="logo-icon">🧠</div>
+    <span class="logo-text">Skill<span>Gap</span>.AI</span>
+  </div>
+  <nav>
+    <span class="nav-pill active" onclick="scrollToForm()">Analyse</span>
+    <span class="nav-pill" onclick="scrollToResults()">Results</span>
+    <span class="nav-pill" onclick="showAbout()">How It Works</span>
+  </nav>
+</header>
+
+<!-- ═══ MAIN ═════════════════════════════════════════ -->
+<div class="page">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge">MULTI-AGENT AI SYSTEM</div>
+    <h1>Know Exactly What<br/>Skills You're Missing</h1>
+    <p>Upload your resume, pick your dream role — our AI agents analyse live job descriptions and build your personalised learning roadmap.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="val">4</div><div class="lbl">AI Agents</div></div>
+      <div class="hero-stat"><div class="val">500+</div><div class="lbl">Skills Tracked</div></div>
+      <div class="hero-stat"><div class="val">15</div><div class="lbl">Job Roles</div></div>
+      <div class="hero-stat"><div class="val">100+</div><div class="lbl">Curated Courses</div></div>
+    </div>
+  </section>
+
+  <!-- ERROR BOX -->
+  <div class="error-box" id="errorBox">
+    <span>⚠️</span><span id="errorMsg"></span>
+  </div>
+
+  <!-- ═══ FORM ═════════════════════════════════════ -->
+  <div id="formSection">
+
+    <!-- Card 1: Target Role -->
+    <div class="form-card">
+      <div class="form-card-header">
+        <div class="step-badge">1</div>
+        <h2>Target Role &amp; Preferences</h2>
+      </div>
+      <div class="form-body">
+        <div class="grid-2" style="margin-bottom:16px">
+          <div class="field">
+            <label>Target Job Role *</label>
+            <input type="text" id="target_role" placeholder="e.g. Data Scientist, ML Engineer…"/>
+            <div class="role-chips" id="roleChips">
+              {% for role in role_suggestions %}
+              <button class="role-chip" onclick="setRole('{{ role }}')">{{ role }}</button>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="field">
+            <label>Preferred Location</label>
+            <input type="text" id="target_location" value="Bengaluru" placeholder="e.g. Bengaluru, Mumbai…"/>
+          </div>
+        </div>
+        <div class="grid-3">
+          <div class="field">
+            <label>Learning Mode</label>
+            <div class="mode-cards">
+              <label class="mode-card">
+                <input type="radio" name="learning_mode" value="free" id="mode_free"/>
+                <div class="mode-icon">🆓</div>
+                <div class="mode-label">Free Only</div>
+                <div class="mode-sub">No cost</div>
+              </label>
+              <label class="mode-card">
+                <input type="radio" name="learning_mode" value="both" id="mode_both" checked/>
+                <div class="mode-icon">✨</div>
+                <div class="mode-label">Both</div>
+                <div class="mode-sub">Best picks</div>
+              </label>
+              <label class="mode-card">
+                <input type="radio" name="learning_mode" value="paid" id="mode_paid"/>
+                <div class="mode-icon">💎</div>
+                <div class="mode-label">Paid</div>
+                <div class="mode-sub">Premium</div>
+              </label>
+            </div>
+          </div>
+          <div class="field">
+            <label>Budget (₹)</label>
+            <input type="number" id="budget_inr" value="10000" min="0" step="500"/>
+          </div>
+          <div class="field">
+            <label>Timeline (weeks)</label>
+            <input type="number" id="timeline_weeks" value="12" min="4" max="52"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Resume -->
+    <div class="form-card">
+      <div class="form-card-header">
+        <div class="step-badge">2</div>
+        <h2>Your Resume</h2>
+        <button class="sample-btn" style="margin-left:auto" onclick="loadSample()">⚡ Load Sample Resume</button>
+      </div>
+      <div class="form-body">
+        <div class="resume-tabs">
+          <button class="tab-btn active" onclick="switchTab('upload')">📎 Upload File</button>
+          <button class="tab-btn" onclick="switchTab('paste')">📝 Paste Text</button>
+        </div>
+
+        <!-- Upload tab -->
+        <div class="tab-panel active" id="tab-upload">
+          <div class="drop-zone" id="dropZone">
+            <input type="file" id="resume_file" accept=".pdf,.docx,.doc,.txt" onchange="handleFileSelect(this)"/>
+            <div class="drop-icon">📄</div>
+            <div class="drop-text"><strong>Drop your resume here</strong> or click to browse</div>
+            <div class="drop-hint">Supports: PDF, DOCX, DOC, TXT — Max 10MB</div>
+          </div>
+          <div class="file-selected" id="fileSelected">
+            ✅ <span id="fileName">No file selected</span>
+          </div>
+        </div>
+
+        <!-- Paste tab -->
+        <div class="tab-panel" id="tab-paste">
+          <div class="field" style="margin-bottom:10px">
+            <label>Your Name</label>
+            <input type="text" id="candidate_name" placeholder="Full name"/>
+          </div>
+          <div class="field">
+            <label>Paste Resume Text</label>
+            <textarea id="resume_text" placeholder="Paste your resume content here — work experience, skills, education…"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit -->
+    <button class="analyse-btn" id="analyseBtn" onclick="runAnalysis()">
+      <span id="btnText">🚀 Analyse My Skill Gap</span>
+    </button>
+  </div>
+
+  <!-- ═══ LOADING ══════════════════════════════════ -->
+  <div id="loading">
+    <h2 style="font-size:18px;margin-bottom:6px">Running Multi-Agent Pipeline</h2>
+    <p style="color:var(--text2);font-size:13px" id="loadingText">Initialising agents…</p>
+
+    <div class="agent-pipeline">
+      <div class="agent-step">
+        <div class="agent-bubble" id="ag1">📥</div>
+        <div class="agent-name">JD Fetcher</div>
+      </div>
+      <div class="agent-connector" id="conn1"></div>
+      <div class="agent-step">
+        <div class="agent-bubble" id="ag2">🔍</div>
+        <div class="agent-name">Skill Extractor</div>
+      </div>
+      <div class="agent-connector" id="conn2"></div>
+      <div class="agent-step">
+        <div class="agent-bubble" id="ag3">📊</div>
+        <div class="agent-name">Gap Analyser</div>
+      </div>
+      <div class="agent-connector" id="conn3"></div>
+      <div class="agent-step">
+        <div class="agent-bubble" id="ag4">📚</div>
+        <div class="agent-name">Recommender</div>
+      </div>
+      <div class="agent-connector" id="conn4"></div>
+      <div class="agent-step">
+        <div class="agent-bubble" id="ag5">📄</div>
+        <div class="agent-name">Report Builder</div>
+      </div>
+    </div>
+
+    <div class="loading-log" id="loadingLog">Connecting to agent pipeline…</div>
+  </div>
+
+  <!-- ═══ RESULTS ═══════════════════════════════════ -->
+  <div id="results">
+
+    <!-- Results Header -->
+    <div class="results-header">
+      <div>
+        <div class="results-title">📊 Skill Gap Report</div>
+        <div style="color:var(--text3);font-size:12px;margin-top:2px" id="reportMeta"></div>
+      </div>
+      <div class="results-actions">
+        <button class="action-btn" onclick="runAgain()">↩ New Analysis</button>
+        <button class="action-btn primary" id="downloadBtn" onclick="downloadPDF()">⬇ Download PDF</button>
+      </div>
+    </div>
+
+    <!-- Metric Cards -->
+    <div class="metrics-row" id="metricsRow"></div>
+
+    <!-- Match Banner -->
+    <div class="match-banner" id="matchBanner">
+      <div class="match-header">
+        <span class="match-label">Profile Match Score</span>
+        <span class="match-pct" id="matchPct">0%</span>
+      </div>
+      <div class="match-track">
+        <div class="match-fill" id="matchFill" style="width:0%"></div>
+      </div>
+      <div class="match-summary" id="matchSummary"></div>
+    </div>
+
+    <!-- Matched Skills -->
+    <div class="panel" id="matchedPanel">
+      <div class="panel-header" onclick="togglePanel('matchedPanel')">
+        <h3>✅ Matched Skills <span id="matchedCount" style="color:var(--success);margin-left:4px"></span></h3>
+        <span class="panel-toggle">▾</span>
+      </div>
+      <div class="panel-body">
+        <div class="skill-chips" id="matchedSkills"></div>
+      </div>
+    </div>
+
+    <!-- Skill Gaps -->
+    <div class="panel" id="gapsPanel">
+      <div class="panel-header" onclick="togglePanel('gapsPanel')">
+        <h3>🎯 Skill Gap Analysis <span id="gapsCount" style="color:var(--danger);margin-left:4px"></span></h3>
+        <span class="panel-toggle">▾</span>
+      </div>
+      <div class="panel-body">
+        <div class="filter-row" id="gapFilters">
+          <button class="filter-chip active" onclick="filterGaps('all',this)">All</button>
+          <button class="filter-chip" onclick="filterGaps('critical',this)">🔴 Critical</button>
+          <button class="filter-chip" onclick="filterGaps('moderate',this)">🟡 Moderate</button>
+          <button class="filter-chip" onclick="filterGaps('minor',this)">⚪ Minor</button>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="gaps-table" id="gapsTable">
+            <thead>
+              <tr>
+                <th>Skill</th>
+                <th>Category</th>
+                <th>Priority</th>
+                <th>JD Freq</th>
+                <th>Why It Matters</th>
+              </tr>
+            </thead>
+            <tbody id="gapsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Learning Roadmap -->
+    <div class="panel" id="coursesPanel">
+      <div class="panel-header" onclick="togglePanel('coursesPanel')">
+        <h3>📚 Learning Roadmap <span id="coursesCount" style="color:var(--accent2);margin-left:4px"></span></h3>
+        <span class="panel-toggle">▾</span>
+      </div>
+      <div class="panel-body">
+        <div class="skill-group-filter" id="courseFilter"></div>
+        <div class="course-grid" id="courseGrid"></div>
+      </div>
+    </div>
+
+    <!-- Companies -->
+    <div class="panel" id="companiesPanel">
+      <div class="panel-header" onclick="togglePanel('companiesPanel')">
+        <h3>🏢 Top Companies Hiring</h3>
+        <span class="panel-toggle">▾</span>
+      </div>
+      <div class="panel-body">
+        <div class="companies-row" id="companiesRow"></div>
+      </div>
+    </div>
+
+    <!-- Agent Logs -->
+    <div class="panel" id="logsPanel">
+      <div class="panel-header" onclick="togglePanel('logsPanel')">
+        <h3>🤖 Agent Pipeline Logs</h3>
+        <span class="panel-toggle">▾</span>
+      </div>
+      <div class="panel-body">
+        <div class="log-terminal" id="logsTerminal"></div>
+      </div>
+    </div>
+
+  </div><!-- /results -->
+
+</div><!-- /page -->
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════
+let currentReport = null;
+let activeTab = 'upload';
+let allGaps = [];
+let allCourses = [];
+
+// ═══════════════════════════════════════════════════════
+//  UI HELPERS
+// ═══════════════════════════════════════════════════════
+function setRole(r){ document.getElementById('target_role').value = r; }
+
+function switchTab(tab) {
+  activeTab = tab;
+  document.querySelectorAll('.tab-btn').forEach((b,i)=> b.classList.toggle('active', (i===0&&tab==='upload')||(i===1&&tab==='paste')));
+  document.querySelectorAll('.tab-panel').forEach((p,i)=> p.classList.toggle('active', (i===0&&tab==='upload')||(i===1&&tab==='paste')));
+}
+
+function handleFileSelect(input) {
+  if(input.files && input.files[0]) {
+    const f = input.files[0];
+    document.getElementById('fileName').textContent = f.name + ' (' + (f.size/1024).toFixed(1) + ' KB)';
+    document.getElementById('fileSelected').style.display = 'flex';
+  }
+}
+
+// Drag & drop
+const dz = document.getElementById('dropZone');
+dz.addEventListener('dragover', e=>{e.preventDefault();dz.classList.add('drag-over');});
+dz.addEventListener('dragleave', ()=>dz.classList.remove('drag-over'));
+dz.addEventListener('drop', e=>{
+  e.preventDefault(); dz.classList.remove('drag-over');
+  const f = e.dataTransfer.files[0];
+  if(f){ const dt = new DataTransfer(); dt.items.add(f); document.getElementById('resume_file').files = dt.files; handleFileSelect({files:[f]}); }
+});
+
+function togglePanel(id) {
+  document.getElementById(id).classList.toggle('collapsed');
+}
+
+function showToast(msg, duration=3000) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), duration);
+}
+
+function showError(msg) {
+  document.getElementById('errorMsg').textContent = msg;
+  document.getElementById('errorBox').style.display = 'flex';
+  setTimeout(()=>document.getElementById('errorBox').style.display='none', 5000);
+}
+
+function scrollToForm(){ document.getElementById('formSection').scrollIntoView({behavior:'smooth'}); }
+function scrollToResults(){ document.getElementById('results').scrollIntoView({behavior:'smooth'}); }
+function showAbout(){ showToast('4 AI Agents: JD Fetcher → Skill Extractor → Gap Analyser → Recommender', 4000); }
+
+async function loadSample() {
+  const r = await fetch('/sample_resume');
+  const d = await r.json();
+  document.getElementById('resume_text').value = d.resume;
+  document.getElementById('candidate_name').value = 'Arjun Sharma';
+  switchTab('paste');
+  showToast('✅ Sample resume loaded!');
+}
+
+// ═══════════════════════════════════════════════════════
+//  AGENT ANIMATION
+// ═══════════════════════════════════════════════════════
+function animateAgents(messages) {
+  const steps = [
+    {bubble:'ag1', conn:'conn1', msg: messages[0]||'Agent 1: Fetching job descriptions…'},
+    {bubble:'ag2', conn:'conn2', msg: messages[1]||'Agent 2: Extracting skills from resume…'},
+    {bubble:'ag3', conn:'conn3', msg: messages[2]||'Agent 3: Analysing skill gaps…'},
+    {bubble:'ag4', conn:'conn4', msg: messages[3]||'Agent 4: Finding learning resources…'},
+    {bubble:'ag5', conn:null,   msg: 'Orchestrator: Building final report…'},
+  ];
+  let i = 0;
+  function next() {
+    if(i > 0) {
+      document.getElementById(steps[i-1].bubble).classList.remove('active');
+      document.getElementById(steps[i-1].bubble).classList.add('done');
+      if(steps[i-1].conn) document.getElementById(steps[i-1].conn).classList.add('done');
+    }
+    if(i < steps.length) {
+      document.getElementById(steps[i].bubble).classList.add('active');
+      document.getElementById('loadingText').textContent = steps[i].msg;
+      i++;
+      setTimeout(next, 900);
+    }
+  }
+  next();
+}
+
+// ═══════════════════════════════════════════════════════
+//  MAIN ANALYSIS
+// ═══════════════════════════════════════════════════════
+async function runAnalysis() {
+  const role = document.getElementById('target_role').value.trim();
+  if(!role){ showError('Please enter a target job role.'); return; }
+
+  const fileInput = document.getElementById('resume_file');
+  const resumeText = document.getElementById('resume_text').value.trim();
+  if(activeTab==='upload' && (!fileInput.files||!fileInput.files[0])){ showError('Please upload your resume file.'); return; }
+  if(activeTab==='paste' && !resumeText){ showError('Please paste your resume text.'); return; }
+
+  // Build form data
+  const fd = new FormData();
+  fd.append('target_role', role);
+  fd.append('target_location', document.getElementById('target_location').value);
+  fd.append('learning_mode', document.querySelector('input[name=learning_mode]:checked').value);
+  fd.append('budget_inr', document.getElementById('budget_inr').value);
+  fd.append('timeline_weeks', document.getElementById('timeline_weeks').value);
+
+  if(activeTab==='upload') {
+    fd.append('resume_file', fileInput.files[0]);
+  } else {
+    fd.append('resume_text', resumeText);
+    fd.append('candidate_name', document.getElementById('candidate_name').value||'Candidate');
+  }
+
+  // UI switch to loading
+  document.getElementById('formSection').style.display = 'none';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('errorBox').style.display = 'none';
+
+  // Animate agents
+  animateAgents([
+    `Fetching live JDs for "${role}"…`,
+    'Extracting skills from resume…',
+    'Computing skill gap with TF-IDF…',
+    'Searching learning resources…',
+  ]);
+
+  // Simulate log updates
+  const logMessages = [
+    `[Orchestrator] Pipeline started → Target: ${role}`,
+    '[JD Fetcher] Querying job database…',
+    '[JD Fetcher] Matched 10 relevant job descriptions',
+    '[Skill Extractor] Running NLP extraction pass 1 (taxonomy match)…',
+    '[Skill Extractor] Running NLP extraction pass 2 (contextual)…',
+    '[Gap Analyser] Computing TF-IDF similarity scores…',
+    '[Gap Analyser] Classifying gaps by priority…',
+    '[Recommender] Fetching course recommendations…',
+    '[Orchestrator] Building final report…',
+  ];
+  const logEl = document.getElementById('loadingLog');
+  let li = 0;
+  const logInterval = setInterval(()=>{
+    if(li < logMessages.length){ logEl.textContent += '\n' + logMessages[li++]; logEl.scrollTop = logEl.scrollHeight; }
+  }, 700);
+
+  try {
+    const res = await fetch('/analyse', {method:'POST', body:fd});
+    const data = await res.json();
+    clearInterval(logInterval);
+
+    if(data.error) { showLoadingError(data.error); return; }
+    currentReport = data.report;
+    renderResults(data.report);
+
+  } catch(e) {
+    clearInterval(logInterval);
+    showLoadingError('Network error: ' + e.message);
+  }
+}
+
+function showLoadingError(msg) {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('formSection').style.display = 'block';
+  showError(msg);
+}
+
+function runAgain() {
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('formSection').style.display = 'block';
+  // Reset agent bubbles
+  ['ag1','ag2','ag3','ag4','ag5'].forEach(id=>{
+    const el = document.getElementById(id);
+    el.classList.remove('active','done');
+  });
+  ['conn1','conn2','conn3','conn4'].forEach(id=>document.getElementById(id).classList.remove('done'));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDER RESULTS
+// ═══════════════════════════════════════════════════════
+function renderResults(r) {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('results').style.display = 'block';
+
+  allGaps = r.skill_gaps || [];
+  allCourses = r.recommendations || [];
+
+  // Meta
+  document.getElementById('reportMeta').textContent =
+    `${r.candidate_name} → ${r.target_role} | Analysed on ${r.analysis_date}`;
+
+  // Metric cards
+  const critical = allGaps.filter(g=>g.priority==='critical').length;
+  const moderate = allGaps.filter(g=>g.priority==='moderate').length;
+  const minor = allGaps.filter(g=>g.priority==='minor').length;
+  document.getElementById('metricsRow').innerHTML = `
+    <div class="metric-card"><div class="m-val" style="color:var(--success)">${r.matched_skills.length}</div><div class="m-lbl">Skills Matched</div></div>
+    <div class="metric-card"><div class="m-val" style="color:var(--danger)">${critical}</div><div class="m-lbl">Critical Gaps</div></div>
+    <div class="metric-card"><div class="m-val" style="color:var(--warning)">${moderate}</div><div class="m-lbl">Moderate Gaps</div></div>
+    <div class="metric-card"><div class="m-val" style="color:var(--minor)">${minor}</div><div class="m-lbl">Minor Gaps</div></div>
+    <div class="metric-card"><div class="m-val" style="color:var(--accent2)">${r.estimated_learning_weeks}w</div><div class="m-lbl">Est. Timeline</div></div>
+  `;
+
+  // Match bar
+  const pct = r.match_percentage;
+  const fillColor = pct>=70 ? 'var(--success)' : (pct>=40 ? 'var(--warning)' : 'var(--danger)');
+  document.getElementById('matchPct').textContent = pct + '%';
+  document.getElementById('matchPct').style.color = fillColor;
+  document.getElementById('matchFill').style.background = fillColor;
+  setTimeout(()=>{ document.getElementById('matchFill').style.width = pct+'%'; }, 100);
+  document.getElementById('matchSummary').textContent = r.summary;
+
+  // Matched skills
+  document.getElementById('matchedCount').textContent = `(${r.matched_skills.length})`;
+  document.getElementById('matchedSkills').innerHTML = r.matched_skills.map(s=>
+    `<span class="skill-chip chip-matched">✓ ${s}</span>`
+  ).join('');
+
+  // Gaps
+  document.getElementById('gapsCount').textContent = `(${allGaps.length})`;
+  renderGapsTable(allGaps);
+
+  // Courses
+  document.getElementById('coursesCount').textContent = `(${allCourses.length})`;
+  buildCourseFilter(allCourses);
+  renderCourses(allCourses);
+
+  // Companies
+  document.getElementById('companiesRow').innerHTML = (r.top_companies_hiring||[]).map(c=>
+    `<span class="company-chip">🏢 ${c}</span>`
+  ).join('');
+
+  // Logs
+  const logsEl = document.getElementById('logsTerminal');
+  logsEl.innerHTML = (r.agent_logs||[]).map(log=>{
+    const isErr = log.includes('ERROR');
+    const parts = log.match(/^\[([^\]]+)\]\s*(.*)/);
+    if(parts) {
+      return `<div class="log-line"><span class="${isErr?'err-tag':'agent-tag'}">[${parts[1]}]</span> ${parts[2]}</div>`;
+    }
+    return `<div class="log-line">${log}</div>`;
+  }).join('');
+
+  scrollToResults();
+}
+
+function renderGapsTable(gaps) {
+  const pMap = {
+    critical: '<span class="priority-badge p-critical">CRITICAL</span>',
+    moderate: '<span class="priority-badge p-moderate">MODERATE</span>',
+    minor:    '<span class="priority-badge p-minor">MINOR</span>',
+  };
+  const colorMap = { critical:'#EF4444', moderate:'#F59E0B', minor:'#6B7280' };
+  document.getElementById('gapsBody').innerHTML = gaps.map(g=>`
+    <tr data-priority="${g.priority}">
+      <td><strong>${g.skill}</strong></td>
+      <td><span class="cat-badge">${g.category}</span></td>
+      <td>${pMap[g.priority]||g.priority}</td>
+      <td style="text-align:center;color:var(--text2)">${g.frequency_in_jds}</td>
+      <td>
+        <div class="gap-reason">${g.reason}</div>
+        <div class="score-bar"><div class="score-fill" style="width:${Math.round(g.relevance_score*100)}%;background:${colorMap[g.priority]}"></div></div>
+      </td>
+    </tr>
+  `).join('');
+}
+
+function filterGaps(priority, btn) {
+  document.querySelectorAll('#gapFilters .filter-chip').forEach(c=>c.classList.remove('active'));
+  btn.classList.add('active');
+  const filtered = priority==='all' ? allGaps : allGaps.filter(g=>g.priority===priority);
+  renderGapsTable(filtered);
+}
+
+function buildCourseFilter(courses) {
+  const skills = [...new Set(courses.map(c=>c.skill))];
+  const cf = document.getElementById('courseFilter');
+  cf.innerHTML = `<button class="filter-chip active" onclick="filterCourses('all',this)">All</button>` +
+    skills.map(s=>`<button class="filter-chip" onclick="filterCourses('${s.replace(/'/g,"\\'")}',this)">${s}</button>`).join('');
+}
+
+function filterCourses(skill, btn) {
+  document.querySelectorAll('#courseFilter .filter-chip').forEach(c=>c.classList.remove('active'));
+  btn.classList.add('active');
+  const filtered = skill==='all' ? allCourses : allCourses.filter(c=>c.skill===skill);
+  renderCourses(filtered);
+}
+
+function renderCourses(courses) {
+  document.getElementById('courseGrid').innerHTML = courses.map(c=>`
+    <div class="course-card">
+      <div class="course-meta">
+        <span class="course-skill">${c.skill}</span>
+        <span class="${c.is_free?'course-free':'course-paid'}">${c.is_free?'FREE':'Paid'}</span>
+      </div>
+      <div class="course-title"><a href="${c.url}" target="_blank" rel="noopener">${c.title}</a></div>
+      <div class="course-footer">
+        <span class="course-platform">📦 ${c.platform}</span>
+        <span class="course-duration">⏱ ${c.duration}</span>
+        <span class="course-level">${c.level}</span>
+        <span class="course-rating">★ ${c.rating}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ═══════════════════════════════════════════════════════
+//  PDF DOWNLOAD
+// ═══════════════════════════════════════════════════════
+async function downloadPDF() {
+  if(!currentReport){ showToast('Run an analysis first.'); return; }
+  const btn = document.getElementById('downloadBtn');
+  btn.textContent = '⏳ Generating PDF…';
+  btn.disabled = true;
+  try {
+    const res = await fetch('/download_pdf', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(currentReport),
+    });
+    if(!res.ok) throw new Error('PDF generation failed');
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `skill_gap_report_${currentReport.candidate_name.replace(/\s+/g,'_').toLowerCase()}.pdf`;
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('✅ PDF downloaded successfully!');
+  } catch(e) {
+    showToast('❌ PDF error: ' + e.message);
+  } finally {
+    btn.innerHTML = '⬇ Download PDF';
+    btn.disabled = false;
+  }
+}
+</script>
+</body>
+</html>
